@@ -8,11 +8,20 @@
     <language>en</language>
     <lastBuildDate>Thu, 13 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://www.stevenzhujr.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>syntax</title>
-      <link>http://www.stevenzhujr.com/categories/syntax/</link>
+      <title>demonstração do tema</title>
+      <link>http://www.stevenzhujr.com/categories/demonstra%C3%A7%C3%A3o-do-tema/</link>
       <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://www.stevenzhujr.com/categories/syntax/</guid>
+      <guid>http://www.stevenzhujr.com/categories/demonstra%C3%A7%C3%A3o-do-tema/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sintaxe</title>
+      <link>http://www.stevenzhujr.com/categories/sintaxe/</link>
+      <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.stevenzhujr.com/categories/sintaxe/</guid>
       <description></description>
     </item>
     
@@ -22,6 +31,24 @@
       <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>http://www.stevenzhujr.com/categories/theme-demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>temas</title>
+      <link>http://www.stevenzhujr.com/categoria/temas/</link>
+      <pubDate>Wed, 04 Jan 2023 23:21:18 +0100</pubDate>
+      
+      <guid>http://www.stevenzhujr.com/categoria/temas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sintaxe</title>
+      <link>http://www.stevenzhujr.com/categoria/sintaxe/</link>
+      <pubDate>Wed, 04 Jan 2023 23:21:06 +0100</pubDate>
+      
+      <guid>http://www.stevenzhujr.com/categoria/sintaxe/</guid>
       <description></description>
     </item>
     

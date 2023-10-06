@@ -15,7 +15,7 @@ noClasses = false
 author = "Steven Zhu"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Steven Zhu's personal website"
-keywords = "blog,developer,personal"
+keywords = "software engineer,hardware engineer,electrical engineer,computer engineer,developer,personal,steven,zhu,ucsb"
 info = ["UCSB Computer Engineering Sophomore"]
 avatarURL = "avatar.jpg"
 #gravatar = "stevenzhujr.ucsb.edu"
@@ -144,7 +144,7 @@ url = "https://www.instagram.com/stevenzhujr/"
 languageName = ":uk:"
 
 [[languages.en.menu.main]]
-name = "About"
+name = "About me"
 weight = 1
 url = "about/"
 
@@ -158,32 +158,4 @@ name = "Contact me"
 weight = 5
 url = "contact/"
 
-[languages.pt-br]
-languageName = ":brazil:"
-title = "João Ninguém"
 
-[languages.pt-br.params]
-author = "João Ninguém"
-info = "Full Stack DevOps e Mágico"
-description = "Sítio pessoal de João Ninguém"
-keywords = "blog,desenvolvedor,pessoal"
-
-[[languages.pt-br.menu.main]]
-name = "Sobre"
-weight = 1
-url = "about/"
-
-[[languages.pt-br.menu.main]]
-name = "Blog"
-weight = 2
-url = "posts/"
-
-[[languages.pt-br.menu.main]]
-name = "Projetos"
-weight = 3
-url = "projects/"
-
-[[languages.pt-br.menu.main]]
-name = "Contato"
-weight = 5
-url = "contact/"

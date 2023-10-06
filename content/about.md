@@ -6,20 +6,16 @@ aliases = ["about-us", "about-hugo", "contact"]
 author = "Hugo Authors"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+I am a Sophomore studying computer engineering at [University of California, Santa Barbara.](https://www.ucsb.edu/)
+	
+During the last summer of highschool, I interned at a company named [Trina Solar](https://www.trinasolar.com/us). This opportunity was my introduction to work culture. My task included data entry and to lead presentations within the company. Currently, I am working part time at UCSB as a [Facility Services Operator](https://conferences.ucsb.edu/student-employment). I was trained in elementary operations with audio and video equipment, as well as furthered my skill in interpersonal communication and scheduling. 
 
-Hugo makes use of a variety of open source projects including:
+Computer engineering involves both software and hardware. For hardware, I have general skills in circuitry, digital logic, and electrical engineering. I have completed a ping pong ball launcher as a project from my ECE 5 class and am aiming to work on a project involving in PCB making as part of [IEEE](https://www.ieee.org/).
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+In terms of software, I know Java, C++, python, html and more, though currently I am most comfortable with C++ and python. I learned python on my own for its versitility, and I was taught in C++ during classes.
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+From the Trina internship, I started two projects, one regarding data analysis for KPI from excel using macros and one written in python for fetching elements from the web for a weekly presentation. 
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+Unfortunately, the data analysis project was terminated when the employee I was collaborating with left the company after I finished my internship. However, you can check out my weekly presentations project and all the other projects I've mentioned on my [Projects page.](https://stevenzhujr.com/projects/)
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
