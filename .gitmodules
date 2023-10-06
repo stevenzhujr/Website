@@ -1,9 +1,3 @@
-[submodule "themes/hugo-coder"]
-	path = themes/hugo-coder
-	url = https://github.com/luizdepra/hugo-coder.git
-[submodule "PersonalWebsite/themes/hugo-coder"]
-	path = PersonalWebsite/themes/hugo-coder
-	url = https://github.com/luizdepra/hugo-coder.git
 [submodule "stevenzhujr/themes/hugo-coder"]
 	path = stevenzhujr/themes/hugo-coder
 	url = https://github.com/luizdepra/hugo-coder.git
