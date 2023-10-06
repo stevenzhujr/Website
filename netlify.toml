@@ -1,3 +1,7 @@
+npm install
+npm run make:prepare
+HUGO_VERSION=0.71.1 npm run serve
+
 [build]
   command = "hugo"
   context = "production"
