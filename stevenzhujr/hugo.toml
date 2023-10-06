@@ -1,4 +1,4 @@
-baseURL = 'https://stevenzhujr.org/'
+baseURL = 'https://stevenzhujr.com/'
 languageCode = 'en-us'
 title = 'Steven Zhu'
 theme = 'hugo-coder'
