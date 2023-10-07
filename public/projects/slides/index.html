@@ -13,15 +13,18 @@
 
 
 <meta name="author" content="Steven Zhu">
-<meta name="description" content="This weekly slides updating program was made by me during my internship at Trina. It was mainly used for weekly usage during the internship. However, I am now looking to add an email component to the program, both for crawling for new links (some links are updated monthly and are tracked down by my coworker), as well as automating sending an updated slide to them.">
+<meta name="description" content="Github Link to heading https://github.com/stevenzhujr/Slides
+This weekly slides updating program was made by me during my internship at Trina. It was mainly used for weekly usage during the internship. However, I am now looking to add an email component to the program, both for crawling for new links (some links are updated monthly and are tracked down by my coworker), as well as automating sending an updated slide to them.">
 <meta name="keywords" content="software engineer,hardware engineer,electrical engineer,computer engineer,developer,personal,steven,zhu,ucsb">
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Slides"/>
-<meta name="twitter:description" content="This weekly slides updating program was made by me during my internship at Trina. It was mainly used for weekly usage during the internship. However, I am now looking to add an email component to the program, both for crawling for new links (some links are updated monthly and are tracked down by my coworker), as well as automating sending an updated slide to them."/>
+<meta name="twitter:description" content="Github Link to heading https://github.com/stevenzhujr/Slides
+This weekly slides updating program was made by me during my internship at Trina. It was mainly used for weekly usage during the internship. However, I am now looking to add an email component to the program, both for crawling for new links (some links are updated monthly and are tracked down by my coworker), as well as automating sending an updated slide to them."/>
 
 <meta property="og:title" content="Slides" />
-<meta property="og:description" content="This weekly slides updating program was made by me during my internship at Trina. It was mainly used for weekly usage during the internship. However, I am now looking to add an email component to the program, both for crawling for new links (some links are updated monthly and are tracked down by my coworker), as well as automating sending an updated slide to them." />
+<meta property="og:description" content="Github Link to heading https://github.com/stevenzhujr/Slides
+This weekly slides updating program was made by me during my internship at Trina. It was mainly used for weekly usage during the internship. However, I am now looking to add an email component to the program, both for crawling for new links (some links are updated monthly and are tracked down by my coworker), as well as automating sending an updated slide to them." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://www.stevenzhujr.com/projects/slides/" /><meta property="article:section" content="projects" />
 
@@ -138,7 +141,80 @@
       </h1>
     </header>
 
-    <p>This weekly slides updating program was made by me during my internship at Trina. It was mainly used for weekly usage during the internship. However, I am now looking to add an email component to the program, both for crawling for new links (some links are updated monthly and are tracked down by my coworker), as well as automating sending an updated slide to them.</p>
+    <h3 id="github">
+  Github
+  <a class="heading-link" href="#github">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p><a href="https://github.com/stevenzhujr/Slides"  class="external-link" target="_blank" rel="noopener">https://github.com/stevenzhujr/Slides</a></p>
+<p>This weekly slides updating program was made by me during my internship at Trina. It was mainly used for weekly usage during the internship. However, I am now looking to add an email component to the program, both for crawling for new links (some links are updated monthly and are tracked down by my coworker), as well as automating sending an updated slide to them.</p>
+<h3 id="abstract">
+  Abstract
+  <a class="heading-link" href="#abstract">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>The main goal of this project was to write a program that would update slides weekly. I used python and its various libaries to fetch the needed elements from the web, treat them, and then update the slides.</p>
+<h3 id="parts">
+  Parts
+  <a class="heading-link" href="#parts">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p><strong>Webfetch</strong>: Using Selenium, I could open browsers remotely. This allows me to then use XPath to find the element, and take a screenshot of said element or take in its value. However I found that some websites had ads that would block the elements that I needed. To remedy this, I added a plugin that would be installed when the browser is launched. Once launched, the browser would wait 5 seconds so that it ise in effect, then capture the elements.</p>
+<p><strong>Treatment</strong>: Using the pillow library, I edit the screenshots I get from the web. This is due to the fact that not all the screenshots I need correspond to its web element completely.</p>
+<p><strong>Update</strong>: Using the pptx libary, I clear the slide and prime it for editing.</p>
+<p><strong>Update</strong>: Using the pptx libary, I update the slide so that it is upd to date. I use runs within paragraphs so that I can format the text boxes customly.</p>
+<h3 id="in-action">
+  In action
+  <a class="heading-link" href="#in-action">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+
+
+
+
+
+
+<style>
+.__h_video {
+   position: relative;
+   padding-bottom: 56.23%;
+   height: 0;
+   overflow: hidden;
+   width: 100%;
+   background: #000;
+}
+.__h_video img {
+   width: 100%;
+   height: auto;
+   color: #000;
+}
+.__h_video .play {
+   height: 72px;
+   width: 72px;
+   left: 50%;
+   top: 50%;
+   margin-left: -36px;
+   margin-top: -36px;
+   position: absolute;
+   cursor: pointer;
+}
+</style>
+
+
+<div class="s_video_simple __h_video">
+<a href="https://vimeo.com/8.72103863e&#43;08" rel="noopener" target="_blank">
+
+
+<img src="https://i.vimeocdn.com/video/1734926248-33c4f8f21e823eedf32bcfad35fff3b3e27c549ff5cb7f06619d8c0639fd7bef-d_295x166" srcset="https://i.vimeocdn.com/video/1734926248-33c4f8f21e823eedf32bcfad35fff3b3e27c549ff5cb7f06619d8c0639fd7bef-d_295x166 1x, https://i.vimeocdn.com/video/1734926248-33c4f8f21e823eedf32bcfad35fff3b3e27c549ff5cb7f06619d8c0639fd7bef-d_295x166 2x" alt="New Recording - 10/7/2023, 5:21:56 AM">
+<div class="play"><svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 61"><circle cx="30.5" cy="30.5" r="30.5" opacity=".8" fill="#000"></circle><path d="M25.3 19.2c-2.1-1.2-3.8-.2-3.8 2.2v18.1c0 2.4 1.7 3.4 3.8 2.2l16.6-9.1c2.1-1.2 2.1-3.2 0-4.4l-16.6-9z" fill="#fff"></path></svg></div></a></div>
 
   </article>
 </section>
