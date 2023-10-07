@@ -3,4 +3,6 @@ title = "Projects"
 slug = "projects"
 +++
 
-Nothing to see here... Move along!
+[Pingpong ball launcher](/projects/pingpong)
+
+[Weekly updating slides](/project/slides)

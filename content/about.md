@@ -1,9 +1,6 @@
 +++
-title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+title = "About me"
+slug = "about"
 +++
 
 I am a Sophomore studying computer engineering at [University of California, Santa Barbara.](https://www.ucsb.edu/)
@@ -16,6 +13,4 @@ In terms of software, I know Java, C++, python, html and more, though currently 
 
 From the Trina internship, I started two projects, one regarding data analysis for KPI from excel using macros and one written in python for fetching elements from the web for a weekly presentation. 
 
-Unfortunately, the data analysis project was terminated when the employee I was collaborating with left the company after I finished my internship. However, you can check out my weekly presentations project and all the other projects I've mentioned on my [Projects page.](https://stevenzhujr.com/projects/)
-
-
+Unfortunately, the data analysis project was terminated when the employee I was collaborating with left the company after I finished my internship. However, you can check out my weekly presentations project and all the other projects I've mentioned on my [Projects page.](/projects)

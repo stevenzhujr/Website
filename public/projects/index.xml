@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Steven Zhu</title>
+    <link>http://www.stevenzhujr.com/projects/</link>
+    <description>Recent content in Projects on Steven Zhu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="http://www.stevenzhujr.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pingpong</title>
+      <link>http://www.stevenzhujr.com/projects/pingpong/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.stevenzhujr.com/projects/pingpong/</guid>
+      <description>pls</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>http://www.stevenzhujr.com/projects/slides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.stevenzhujr.com/projects/slides/</guid>
+      <description>pls</description>
+    </item>
+    
+  </channel>
+</rss>

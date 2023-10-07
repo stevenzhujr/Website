@@ -3,4 +3,6 @@ title = "Contact"
 slug = "contact"
 +++
 
-Follow me, @johndoe.
+**Email**: stevenzhu@ucsb.edu
+
+**Phone number**: 668-241-9173
