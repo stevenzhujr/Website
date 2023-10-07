@@ -3,7 +3,7 @@
 
 <head>
   <title>
-  Pingpong · Steven Zhu
+  Ping pong · Steven Zhu
 </title>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,15 +13,18 @@
 
 
 <meta name="author" content="Steven Zhu">
-<meta name="description" content="pls">
+<meta name="description" content="The Ping pong Rapid Defence Turret Repeater(PRDTR), is a ping pong ball launcher that was the subject of my ECE 5 course. Me and two other classmates, Vihan Jayaraman, and Jerry Wang, created this as our final project.
+Abstract Link to heading The main goal of our project was to construct a device that would be able to shoot projectiles with multiple degrees of freedom. We mounted a ping-pong ball launcher on a tiltable mount, giving it 360 degrees of coverage as well as the ability to change the angle of aim.">
 <meta name="keywords" content="software engineer,hardware engineer,electrical engineer,computer engineer,developer,personal,steven,zhu,ucsb">
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Pingpong"/>
-<meta name="twitter:description" content="pls"/>
+<meta name="twitter:title" content="Ping pong"/>
+<meta name="twitter:description" content="The Ping pong Rapid Defence Turret Repeater(PRDTR), is a ping pong ball launcher that was the subject of my ECE 5 course. Me and two other classmates, Vihan Jayaraman, and Jerry Wang, created this as our final project.
+Abstract Link to heading The main goal of our project was to construct a device that would be able to shoot projectiles with multiple degrees of freedom. We mounted a ping-pong ball launcher on a tiltable mount, giving it 360 degrees of coverage as well as the ability to change the angle of aim."/>
 
-<meta property="og:title" content="Pingpong" />
-<meta property="og:description" content="pls" />
+<meta property="og:title" content="Ping pong" />
+<meta property="og:description" content="The Ping pong Rapid Defence Turret Repeater(PRDTR), is a ping pong ball launcher that was the subject of my ECE 5 course. Me and two other classmates, Vihan Jayaraman, and Jerry Wang, created this as our final project.
+Abstract Link to heading The main goal of our project was to construct a device that would be able to shoot projectiles with multiple degrees of freedom. We mounted a ping-pong ball launcher on a tiltable mount, giving it 360 degrees of coverage as well as the ability to change the angle of aim." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://www.stevenzhujr.com/projects/pingpong/" /><meta property="article:section" content="projects" />
 
@@ -133,12 +136,108 @@
     <header>
       <h1 class="title">
         <a class="title-link" href="http://www.stevenzhujr.com/projects/pingpong/">
-          Pingpong
+          Ping pong
         </a>
       </h1>
     </header>
 
-    <p>pls</p>
+    <p>The Ping pong Rapid Defence Turret Repeater(PRDTR), is a ping pong ball launcher that was the subject of my ECE 5 course. Me and two other classmates, Vihan Jayaraman, and Jerry Wang, created this as our final project.</p>
+<h3 id="abstract">
+  Abstract
+  <a class="heading-link" href="#abstract">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>The main goal of our project was to construct a device that would be able to shoot projectiles with multiple degrees of freedom. We mounted a ping-pong ball launcher on a tiltable mount, giving it 360 degrees of coverage as well as the ability to change the angle of aim. Using a wirelessly connected PS4 controller, we send commands to the arduino’s serial monitor, which will rotate and tilt the turret accordingly as well as fire our ping-pong balls.</p>
+<h3 id="technical-details">
+  Technical Details
+  <a class="heading-link" href="#technical-details">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p><strong>Software</strong>: Using AntiMicroX, we mapped the PS4 controls to keyboard commands. Afterwards, we used a serial monitor emulator, PuTTY in order to ensure every keyboard command was immediately sent to the arduino. The arduino then reads the keyboard commands from PuTTY and executes them.</p>
+<p><strong>Hardware</strong>: The entire system is powered using a 12V power supply. We designed a mosfet circuit to act as a switch for the spindle motors and used the enabler pins on the motor driver to control current to the Nema 17 stepper motors.</p>
+<h3 id="equipment">
+  Equipment
+  <a class="heading-link" href="#equipment">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Arduino Uno</li>
+<li>12V power supply adapter</li>
+<li>2x Nema 17 Stepper Motors</li>
+<li>2x L298N motor drivers</li>
+<li>2x 5.9V DC Spindle Motor</li>
+<li>SG90 micro servo motor</li>
+<li>PS4 Controller</li>
+<li>Rubber Bands</li>
+<li>Access to a 3D Printer</li>
+</ul>
+<h3 id="acknowledgements">
+  Acknowledgements:
+  <a class="heading-link" href="#acknowledgements">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Professor Theogarajan (the best professor)</li>
+<li>ECE TA’s</li>
+<li>IEEE</li>
+<li>Daniel Van Delsem</li>
+<li>Isaac879 on GitHub</li>
+<li>lmjd14 on Reddit</li>
+<li>William Ni for 3D Printing</li>
+<li>Owen Liu for electronics</li>
+</ul>
+<p>We took heavy inspiration from an online <a href="https://projecthub.arduino.cc/GordPayne/arduino-ping-pong-ball-cannon-abb8b3"  class="external-link" target="_blank" rel="noopener">arduino lab</a>, with a design very similar in terms of mechanics, though we modified the desing with CAD so that it is 3-D printable.</p>
+<h3 id="presentation">
+  Presentation
+  <a class="heading-link" href="#presentation">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/ZhUitiKttmc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h3 id="full-report">
+  Full report
+  <a class="heading-link" href="#full-report">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p><figure><img src="/images/pingpong1.jpg"/>
+</figure>
+
+<figure><img src="/images/pingpong2.jpg"/>
+</figure>
+
+<figure><img src="/images/pingpong3.jpg"/>
+</figure>
+
+<figure><img src="/images/pingpong4.jpg"/>
+</figure>
+
+<figure><img src="/images/pingpong5.jpg"/>
+</figure>
+
+<figure><img src="/images/pingpong6.jpg"/>
+</figure>
+
+<figure><img src="/images/pingpong7.jpg"/>
+</figure>
+
+<figure><img src="/images/pingpong8.jpg"/>
+</figure>
+</p>
 
   </article>
 </section>

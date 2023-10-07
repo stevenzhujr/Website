@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://www.stevenzhujr.com/tags/shortcodes/_index.pt-br/</loc>
-    <lastmod>2023-01-04T11:51:36+01:00</lastmod>
-  </url><url>
-    <loc>http://www.stevenzhujr.com/</loc>
-    <lastmod>2023-01-04T11:51:36+01:00</lastmod>
-  </url><url>
-    <loc>http://www.stevenzhujr.com/tags/</loc>
-    <lastmod>2023-01-04T11:51:36+01:00</lastmod>
-  </url><url>
     <loc>http://www.stevenzhujr.com/about/</loc>
   </url><url>
     <loc>http://www.stevenzhujr.com/authors/</loc>
@@ -28,5 +19,9 @@
     <loc>http://www.stevenzhujr.com/series/</loc>
   </url><url>
     <loc>http://www.stevenzhujr.com/projects/slides/</loc>
+  </url><url>
+    <loc>http://www.stevenzhujr.com/</loc>
+  </url><url>
+    <loc>http://www.stevenzhujr.com/tags/</loc>
   </url>
 </urlset>
