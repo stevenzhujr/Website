@@ -13,6 +13,9 @@
   {{ .Content }}
   <ul>
     {{ range .Paginator.Pages }}
+    <li>
+      <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
+    </li>
     {{ end }}
   </ul>
   {{ partial "pagination.html" . }}
