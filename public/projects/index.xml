@@ -22,8 +22,8 @@ Abstract Link to heading The main goal of our project was to construct a device 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.stevenzhujr.com/projects/slides/</guid>
-      <description>Github Link to heading https://github.com/stevenzhujr/Slides
-This weekly slides updating program was made by me during my internship at Trina. It was mainly used for weekly usage during the internship. However, I am now looking to add an email component to the program, both for crawling for new links (some links are updated monthly and are tracked down by my coworker), as well as automating sending an updated slide to them.</description>
+      <description>This weekly slides updating program was made by me during my internship at Trina. It was mainly used for weekly usage during the internship. However, I am now looking to add an email component to the program, both for crawling for new links (some links are updated monthly and are tracked down by my coworker), as well as automating sending an updated slide to them.
+Github Link to heading https://github.com/stevenzhujr/Slides</description>
     </item>
     
   </channel>

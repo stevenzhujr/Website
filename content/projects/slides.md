@@ -3,10 +3,10 @@ title = "Slides"
 slug = "slides"
 +++
 
+This weekly slides updating program was made by me during my internship at Trina. It was mainly used for weekly usage during the internship. However, I am now looking to add an email component to the program, both for crawling for new links (some links are updated monthly and are tracked down by my coworker), as well as automating sending an updated slide to them.
+
 ### Github
 https://github.com/stevenzhujr/Slides
-
-This weekly slides updating program was made by me during my internship at Trina. It was mainly used for weekly usage during the internship. However, I am now looking to add an email component to the program, both for crawling for new links (some links are updated monthly and are tracked down by my coworker), as well as automating sending an updated slide to them.
 
 ### Abstract
 
@@ -18,7 +18,7 @@ The main goal of this project was to write a program that would update slides we
 
 **Treatment**: Using the pillow library, I edit the screenshots I get from the web. This is due to the fact that not all the screenshots I need correspond to its web element completely.
 
-**Update**: Using the pptx libary, I clear the slide and prime it for editing.
+**Clear**: Using the pptx libary, I clear the slide and prime it for editing.
 
 **Update**: Using the pptx libary, I update the slide so that it is upd to date. I use runs within paragraphs so that I can format the text boxes customly.
 
