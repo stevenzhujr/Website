@@ -12,7 +12,7 @@ https://github.com/stevenzhujr/Slides
 
 The main goal of this project was to write a program that would update slides automatically on weekly basis. I used python and its various libraries to fetch the needed elements from the web, process them, and then update the slides.
 
-### Parts
+### The code is composed of the following parts:
 
 **Webfetch**: Using Selenium, I could open browsers remotely. This allows me to use XPath to find the web element, take a screenshot of appropriate element or take in its value. 
 
