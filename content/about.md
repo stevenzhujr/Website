@@ -4,13 +4,29 @@ slug = "about"
 +++
 
 I am a Sophomore studying computer engineering at [University of California, Santa Barbara.](https://www.ucsb.edu/)
-	
-During the last summer of highschool, I interned at a company named [Trina Solar](https://www.trinasolar.com/us). This opportunity was my introduction to work culture. My task included data entry and to lead presentations within the company. Currently, I am working part time at UCSB as a [Facility Services Operator](https://conferences.ucsb.edu/student-employment). I was trained in elementary operations with audio and video equipment, as well as furthered my skill in interpersonal communication and scheduling. 
 
-Computer engineering involves both software and hardware. For hardware, I have general skills in circuitry, digital logic, and electrical engineering. I have completed a ping pong ball launcher as a project from my ECE 5 class and am aiming to work on a project involving in PCB making as part of [IEEE](https://www.ieee.org/).
+### Classes
 
-In terms of software, I know Java, C++, python, html and more, though currently I am most comfortable with C++ and python. I learned python on my own for its versitility, and I was taught in C++ during classes.
+Data Structures and Algorithms. (instructed in C++)
 
-From the Trina internship, I started two projects, one regarding data analysis for KPI from excel using macros and one written in python for fetching elements from the web for a weekly presentation. 
+Object Oriented Design and Implementation. (instructed in C++)
 
-Unfortunately, the data analysis project was terminated when the employee I was collaborating with left the company after I finished my internship. However, you can check out my weekly presentations project and all the other projects I've mentioned on my [Projects page.](/projects)
+Foundations of Analog and Digital Circuits and Systems.
+
+I have academic experience in C++ and Java, while learning Python and HTML on my own.
+
+### Work Experience
+
+I interned at a company named [Trina Solar](https://www.trinasolar.com/us) during the last summer of highschool. I handeled data entry as well as managed weekly presentations. This was my introduction to work culture.
+
+Now I am working part time at UCSB as a [Facility Services Operator](https://conferences.ucsb.edu/student-employment). This position has greatly developed my interpersonal and time management skills.
+
+### Projects
+
+I have completed a Pingpong Ball Launcher Project in my ECE 5 class. With the aid of my teammates, I used Solidworks to design and 3-D print a turret that launched pingpong balls. We controlled it with a PS4 controller remote through arduino with c++ code.
+
+During my internship at Trina, I started a project to automate weekly presentations. I used python to fetch elements and screenshots from websites using XPath and the Selenium library. Then the program automatically compiled them into a presentation usint the python pptx and Pillow libraries.
+
+I have more projects in the works. I plan to code Conrad's game of life in this coming school quarter and complete a PCB ornament project this school year under the supervision of [IEEE](https://www.ieee.org/).
+
+If you want learn more about about my project, be sure to visit my [projects page.](/projects)
