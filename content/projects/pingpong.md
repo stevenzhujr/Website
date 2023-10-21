@@ -3,7 +3,7 @@ title = "Ping pong"
 slug = "pingpong"
 +++
 
-The Ping pong Rapid Defence Turret Repeater(PRDTR), is a ping pong ball launcher that was the subject of my ECE 5 course. Me and two other classmates, Vihan Jayaraman, and Jerry Wang, created this as our final project.
+The Pingpong Rapid Defence Turret Repeater(PRDTR), or the Pingpong Ball Launcher project, was the final assignment of my ECE 5 course. I produced the launcher with two other classmates, Vihan Jayaraman and Jerry Wang.
 
 ### Abstract
 
@@ -13,7 +13,7 @@ The main goal of our project was to construct a device that would be able to sho
 
 **Software**: Using AntiMicroX, we mapped the PS4 controls to keyboard commands. Afterwards, we used a serial monitor emulator, PuTTY in order to ensure every keyboard command was immediately sent to the arduino. The arduino then reads the keyboard commands from PuTTY and executes them.
 
-**Hardware**: The entire system is powered using a 12V power supply. We designed a mosfet circuit to act as a switch for the spindle motors and used the enabler pins on the motor driver to control current to the Nema 17 stepper motors. 
+**Hardware**: The entire system is powered using a 12V power supply. We designed a mosfet circuit to act as a switch for the spindle motors and used the arduino to control the Nema 17 stepper motors. 
 
 ### Equipment
 - Arduino Uno

@@ -3,24 +3,26 @@ title = "Slides"
 slug = "slides"
 +++
 
-This weekly slides updating program was made by me during my internship at Trina. It was mainly used weekly during my internship.
+This weekly slides updating program was made during my internship at Trina.
 
 ### Github
 https://github.com/stevenzhujr/Slides
 
 ### Abstract
 
-The main goal of this project was to write a program that would update slides weekly. I used python and its various libaries to fetch the needed elements from the web, treat them, and then update the slides.
+The main goal of this project was to write a program that would update slides automatically on weekly basis. I used python and its various libraries to fetch the needed elements from the web, process them, and then update the slides.
 
 ### Parts
 
-**Webfetch**: Using Selenium, I could open browsers remotely. This allows me to then use XPath to find the element, and take a screenshot of said element or take in its value. However I found that some websites had ads that would block the elements that I needed. To remedy this, I added a plugin that would be installed when the browser is launched. Once launched, the browser would wait 5 seconds so that it ise in effect, then capture the elements.
+**Webfetch**: Using Selenium, I could open browsers remotely. This allows me to use XPath to find the web element, take a screenshot of appropriate element or take in its value. 
 
-**Treatment**: Using the pillow library, I edit the screenshots I get from the web. This is due to the fact that not all the screenshots I need correspond to its web element completely.
+However some websites had ads that may block the elements needed. To remedy this, I used Selenium to automatically inatall an adblocker plug in before capturing the elements.
 
-**Clear**: Using the pptx libary, I clear the slide and prime it for editing.
+**Treatment**: Sometimes not all the screenshots from the web were properly captured. With Pillow library I can edit the screenshots. 
 
-**Update**: Using the pptx libary, I update the slide so that it is upd to date. I use runs within paragraphs so that I can format the text boxes customly.
+**Clear**: With PPTX library I can clear the slide and prepare it for editing.
+
+**Update**: With the PPTX library I can update the slide with new information. I use runs within paragraphs so that I can format the customary text boxes.
 
 ### In action
 {{< vimeo_simple "872103863?share=copy" >}}
