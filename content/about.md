@@ -3,7 +3,7 @@ title = "About me"
 slug = "about"
 +++
 
-I am a Sophomore studying computer engineering at [University of California, Santa Barbara.](https://www.ucsb.edu/)
+I am a Sophomore studying computer engineering at the [University of California, Santa Barbara.](https://www.ucsb.edu/)
 
 ### Classes
 
@@ -13,20 +13,20 @@ Object Oriented Design and Implementation. (instructed in C++)
 
 Foundations of Analog and Digital Circuits and Systems.
 
-I have academic experience in C++ and Java, while learning Python and HTML on my own.
+I have academic experience in C++ and Java while learning Python and HTML independently.
 
 ### Work Experience
 
-I interned at a company named [Trina Solar](https://www.trinasolar.com/us) during the last summer of highschool. I handeled data entry as well as managed weekly presentations. This was my introduction to work culture.
+I interned at a company named [Trina Solar](https://www.trinasolar.com/us) in the summer of 2022. I handled data entry as well as managed weekly presentations. Trina was my introduction to work culture and taught me work etiquette.
 
-Now I am working part time at UCSB as a [Facility Services Operator](https://conferences.ucsb.edu/student-employment). This position has greatly developed my interpersonal and time management skills.
+Currently, I am working part-time at UCSB as a [Facility Services Operator](https://conferences.ucsb.edu/student-employment). This position has developed my interpersonal and time management skills.
 
 ### Projects
 
-I have completed a Pingpong Ball Launcher Project in my ECE 5 class. With the aid of my teammates, I used Solidworks to design and 3-D print a turret that launched pingpong balls. We controlled it with a PS4 controller remote through arduino with c++ code.
+I have completed a Pingpong Ball Launcher Project in my ECE 5 class. Collaborating with my teammates, I used Solidworks to design and 3-D print a turret that launched pingpong balls. We controlled it with a PS4 controller remote through Arduino with C++ code.
 
-During my internship at Trina, I started a project to automate weekly presentations. I used python to fetch elements and screenshots from websites using XPath and the Selenium library. Then the program automatically compiled them into a presentation usint the python pptx and Pillow libraries.
+During my internship at Trina, I started a project to automate weekly presentations. I used Python to fetch elements and screenshots from websites using XPath and the Selenium library. Then, the program automatically compiled them into a presentation using the Python pptx and Pillow libraries.
 
-I have more projects in the works. I plan to code Conrad's game of life in this coming school quarter and complete a PCB ornament project this school year under the supervision of [IEEE](https://www.ieee.org/).
+I have more projects in the works. I plan to code Conrad's Game of Life this coming school quarter and complete a PCB ornament project this school year under the supervision of an [IEEE](https://www.ieee.org/) member.
 
-If you want learn more about about my project, be sure to visit my [projects page.](/projects)
+Learn more at my [projects page.](/projects)
