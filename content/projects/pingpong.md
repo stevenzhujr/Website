@@ -3,17 +3,17 @@ title = "Ping pong"
 slug = "pingpong"
 +++
 
-The Pingpong Rapid Defence Turret Repeater(PRDTR), or the Pingpong Ball Launcher project, was the final assignment of my ECE 5 course. I produced the launcher with two other classmates, Vihan Jayaraman and Jerry Wang.
+The Pingpong Rapid Defence Turret Repeater(PRDTR), or the Pingpong Ball Launcher project, was the final assignment of my ECE 5 course. I produced the launcher with two classmates, Vihan Jayaraman and Jerry Wang.
 
 ### Abstract
 
-The main goal of our project was to construct a device that would be able to shoot projectiles with multiple degrees of freedom. We mounted a ping-pong ball launcher on a tiltable mount, giving it 360 degrees of coverage as well as the ability to change the angle of aim. Using a wirelessly connected PS4 controller, we send commands to the arduino’s serial monitor, which will rotate and tilt the turret accordingly as well as fire our ping-pong balls. 
+The main goal of our project was to construct a device that shoots projectiles with multiple degrees of freedom. We mounted a ping-pong ball launcher on a tiltable mount, giving it 360 degrees of coverage in aim. Using a wirelessly connected PS4 controller, we send commands to the Arduino’s serial monitor, which rotates and tilts the turret to aim and fire our ping-pong balls. 
 
 ### Technical Details
 
-**Software**: Using AntiMicroX, we mapped the PS4 controls to keyboard commands. Afterwards, we used a serial monitor emulator, PuTTY in order to ensure every keyboard command was immediately sent to the arduino. The arduino then reads the keyboard commands from PuTTY and executes them.
+**Software**: Using AntiMicroX, we mapped the PS4 controls to keyboard commands. Afterwards, we used the serial monitor emulator PuTTY to ensure all keyboard commands were immediately sent to the Arduino. The Arduino then reads the keyboard commands from PuTTY and executes them.
 
-**Hardware**: The entire system is powered using a 12V power supply. We designed a mosfet circuit to act as a switch for the spindle motors and used the arduino to control the Nema 17 stepper motors. 
+**Hardware**: The entire system is powered using a 12V power supply. We designed a MOSFET circuit to act as a switch for the spindle motors and used the Arduino to control the Nema 17 stepper motors. 
 
 ### Equipment
 - Arduino Uno
@@ -36,7 +36,7 @@ The main goal of our project was to construct a device that would be able to sho
 - William Ni for 3D Printing
 - Owen Liu for electronics
 
-We took heavy inspiration from an online [arduino lab](https://projecthub.arduino.cc/GordPayne/arduino-ping-pong-ball-cannon-abb8b3), with a design very similar in terms of mechanics, though we modified the desing with CAD so that it is 3-D printable.
+We took heavy inspiration from an online [arduino lab](https://projecthub.arduino.cc/GordPayne/arduino-ping-pong-ball-cannon-abb8b3), with a design very similar in terms of mechanics. We enhanced the design further with CAD to make it 3-D printable.
 
 ### Presentation
 {{<youtube ZhUitiKttmc>}}

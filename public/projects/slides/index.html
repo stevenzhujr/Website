@@ -13,24 +13,24 @@
 
 
 <meta name="author" content="Steven Zhu">
-<meta name="description" content="This weekly slides updating program was made by me during my internship at Trina. It was mainly used weekly during my internship.
+<meta name="description" content="The Weekly Slides Automation Project was made during my internship at Trina.
 Github Link to heading https://github.com/stevenzhujr/Slides
-Abstract Link to heading The main goal of this project was to write a program that would update slides weekly. I used python and its various libaries to fetch the needed elements from the web, treat them, and then update the slides.
-Parts Link to heading Webfetch: Using Selenium, I could open browsers remotely.">
+Abstract Link to heading The main goal of this project was to write a program that would update slides automatically every week. I used Python and its various libraries to fetch the needed elements from the web, process them, and then update the slides.
+The code is composed of the following parts: Link to heading Webfetch: Using Selenium, I could open browsers remotely.">
 <meta name="keywords" content="software engineer,hardware engineer,electrical engineer,computer engineer,developer,personal,steven,zhu,ucsb">
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Slides"/>
-<meta name="twitter:description" content="This weekly slides updating program was made by me during my internship at Trina. It was mainly used weekly during my internship.
+<meta name="twitter:description" content="The Weekly Slides Automation Project was made during my internship at Trina.
 Github Link to heading https://github.com/stevenzhujr/Slides
-Abstract Link to heading The main goal of this project was to write a program that would update slides weekly. I used python and its various libaries to fetch the needed elements from the web, treat them, and then update the slides.
-Parts Link to heading Webfetch: Using Selenium, I could open browsers remotely."/>
+Abstract Link to heading The main goal of this project was to write a program that would update slides automatically every week. I used Python and its various libraries to fetch the needed elements from the web, process them, and then update the slides.
+The code is composed of the following parts: Link to heading Webfetch: Using Selenium, I could open browsers remotely."/>
 
 <meta property="og:title" content="Slides" />
-<meta property="og:description" content="This weekly slides updating program was made by me during my internship at Trina. It was mainly used weekly during my internship.
+<meta property="og:description" content="The Weekly Slides Automation Project was made during my internship at Trina.
 Github Link to heading https://github.com/stevenzhujr/Slides
-Abstract Link to heading The main goal of this project was to write a program that would update slides weekly. I used python and its various libaries to fetch the needed elements from the web, treat them, and then update the slides.
-Parts Link to heading Webfetch: Using Selenium, I could open browsers remotely." />
+Abstract Link to heading The main goal of this project was to write a program that would update slides automatically every week. I used Python and its various libraries to fetch the needed elements from the web, process them, and then update the slides.
+The code is composed of the following parts: Link to heading Webfetch: Using Selenium, I could open browsers remotely." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://www.stevenzhujr.com/projects/slides/" /><meta property="article:section" content="projects" />
 
@@ -147,7 +147,7 @@ Parts Link to heading Webfetch: Using Selenium, I could open browsers remotely."
       </h1>
     </header>
 
-    <p>This weekly slides updating program was made by me during my internship at Trina. It was mainly used weekly during my internship.</p>
+    <p>The Weekly Slides Automation Project was made during my internship at Trina.</p>
 <h3 id="github">
   Github
   <a class="heading-link" href="#github">
@@ -163,18 +163,19 @@ Parts Link to heading Webfetch: Using Selenium, I could open browsers remotely."
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
-<p>The main goal of this project was to write a program that would update slides weekly. I used python and its various libaries to fetch the needed elements from the web, treat them, and then update the slides.</p>
-<h3 id="parts">
-  Parts
-  <a class="heading-link" href="#parts">
+<p>The main goal of this project was to write a program that would update slides automatically every week. I used Python and its various libraries to fetch the needed elements from the web, process them, and then update the slides.</p>
+<h3 id="the-code-is-composed-of-the-following-parts">
+  The code is composed of the following parts:
+  <a class="heading-link" href="#the-code-is-composed-of-the-following-parts">
     <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
-<p><strong>Webfetch</strong>: Using Selenium, I could open browsers remotely. This allows me to then use XPath to find the element, and take a screenshot of said element or take in its value. However I found that some websites had ads that would block the elements that I needed. To remedy this, I added a plugin that would be installed when the browser is launched. Once launched, the browser would wait 5 seconds so that it ise in effect, then capture the elements.</p>
-<p><strong>Treatment</strong>: Using the pillow library, I edit the screenshots I get from the web. This is due to the fact that not all the screenshots I need correspond to its web element completely.</p>
-<p><strong>Clear</strong>: Using the pptx libary, I clear the slide and prime it for editing.</p>
-<p><strong>Update</strong>: Using the pptx libary, I update the slide so that it is upd to date. I use runs within paragraphs so that I can format the text boxes customly.</p>
+<p><strong>Webfetch</strong>: Using Selenium, I could open browsers remotely. Allowing me to use XPath to find the web element and either take a screenshot of it or record its value.</p>
+<p>However, some websites had ads that may block the screenshots needed. To remedy this, I used Selenium to automatically install an adblocker plug-in before capturing the elements.</p>
+<p><strong>Treatment</strong>: On occasion, not all the screenshots were captured in the necessary dimensions. With the Pillow library, I can edit the screenshots.</p>
+<p><strong>Clear</strong>: With the PPTX, library I can clear the slide and prepare it for editing.</p>
+<p><strong>Update</strong>: With the PPTX, library I can update the slide with new information. I used runs within paragraphs to format the customary text boxes.</p>
 <h3 id="in-action">
   In action
   <a class="heading-link" href="#in-action">

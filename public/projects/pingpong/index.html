@@ -13,18 +13,18 @@
 
 
 <meta name="author" content="Steven Zhu">
-<meta name="description" content="The Ping pong Rapid Defence Turret Repeater(PRDTR), is a ping pong ball launcher that was the subject of my ECE 5 course. Me and two other classmates, Vihan Jayaraman, and Jerry Wang, created this as our final project.
-Abstract Link to heading The main goal of our project was to construct a device that would be able to shoot projectiles with multiple degrees of freedom. We mounted a ping-pong ball launcher on a tiltable mount, giving it 360 degrees of coverage as well as the ability to change the angle of aim.">
+<meta name="description" content="The Pingpong Rapid Defence Turret Repeater(PRDTR), or the Pingpong Ball Launcher project, was the final assignment of my ECE 5 course. I produced the launcher with two classmates, Vihan Jayaraman and Jerry Wang.
+Abstract Link to heading The main goal of our project was to construct a device that shoots projectiles with multiple degrees of freedom. We mounted a ping-pong ball launcher on a tiltable mount, giving it 360 degrees of coverage in aim.">
 <meta name="keywords" content="software engineer,hardware engineer,electrical engineer,computer engineer,developer,personal,steven,zhu,ucsb">
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Ping pong"/>
-<meta name="twitter:description" content="The Ping pong Rapid Defence Turret Repeater(PRDTR), is a ping pong ball launcher that was the subject of my ECE 5 course. Me and two other classmates, Vihan Jayaraman, and Jerry Wang, created this as our final project.
-Abstract Link to heading The main goal of our project was to construct a device that would be able to shoot projectiles with multiple degrees of freedom. We mounted a ping-pong ball launcher on a tiltable mount, giving it 360 degrees of coverage as well as the ability to change the angle of aim."/>
+<meta name="twitter:description" content="The Pingpong Rapid Defence Turret Repeater(PRDTR), or the Pingpong Ball Launcher project, was the final assignment of my ECE 5 course. I produced the launcher with two classmates, Vihan Jayaraman and Jerry Wang.
+Abstract Link to heading The main goal of our project was to construct a device that shoots projectiles with multiple degrees of freedom. We mounted a ping-pong ball launcher on a tiltable mount, giving it 360 degrees of coverage in aim."/>
 
 <meta property="og:title" content="Ping pong" />
-<meta property="og:description" content="The Ping pong Rapid Defence Turret Repeater(PRDTR), is a ping pong ball launcher that was the subject of my ECE 5 course. Me and two other classmates, Vihan Jayaraman, and Jerry Wang, created this as our final project.
-Abstract Link to heading The main goal of our project was to construct a device that would be able to shoot projectiles with multiple degrees of freedom. We mounted a ping-pong ball launcher on a tiltable mount, giving it 360 degrees of coverage as well as the ability to change the angle of aim." />
+<meta property="og:description" content="The Pingpong Rapid Defence Turret Repeater(PRDTR), or the Pingpong Ball Launcher project, was the final assignment of my ECE 5 course. I produced the launcher with two classmates, Vihan Jayaraman and Jerry Wang.
+Abstract Link to heading The main goal of our project was to construct a device that shoots projectiles with multiple degrees of freedom. We mounted a ping-pong ball launcher on a tiltable mount, giving it 360 degrees of coverage in aim." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://www.stevenzhujr.com/projects/pingpong/" /><meta property="article:section" content="projects" />
 
@@ -141,7 +141,7 @@ Abstract Link to heading The main goal of our project was to construct a device 
       </h1>
     </header>
 
-    <p>The Ping pong Rapid Defence Turret Repeater(PRDTR), is a ping pong ball launcher that was the subject of my ECE 5 course. Me and two other classmates, Vihan Jayaraman, and Jerry Wang, created this as our final project.</p>
+    <p>The Pingpong Rapid Defence Turret Repeater(PRDTR), or the Pingpong Ball Launcher project, was the final assignment of my ECE 5 course. I produced the launcher with two classmates, Vihan Jayaraman and Jerry Wang.</p>
 <h3 id="abstract">
   Abstract
   <a class="heading-link" href="#abstract">
@@ -149,7 +149,7 @@ Abstract Link to heading The main goal of our project was to construct a device 
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
-<p>The main goal of our project was to construct a device that would be able to shoot projectiles with multiple degrees of freedom. We mounted a ping-pong ball launcher on a tiltable mount, giving it 360 degrees of coverage as well as the ability to change the angle of aim. Using a wirelessly connected PS4 controller, we send commands to the arduino’s serial monitor, which will rotate and tilt the turret accordingly as well as fire our ping-pong balls.</p>
+<p>The main goal of our project was to construct a device that shoots projectiles with multiple degrees of freedom. We mounted a ping-pong ball launcher on a tiltable mount, giving it 360 degrees of coverage in aim. Using a wirelessly connected PS4 controller, we send commands to the Arduino’s serial monitor, which rotates and tilts the turret to aim and fire our ping-pong balls.</p>
 <h3 id="technical-details">
   Technical Details
   <a class="heading-link" href="#technical-details">
@@ -157,8 +157,8 @@ Abstract Link to heading The main goal of our project was to construct a device 
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
-<p><strong>Software</strong>: Using AntiMicroX, we mapped the PS4 controls to keyboard commands. Afterwards, we used a serial monitor emulator, PuTTY in order to ensure every keyboard command was immediately sent to the arduino. The arduino then reads the keyboard commands from PuTTY and executes them.</p>
-<p><strong>Hardware</strong>: The entire system is powered using a 12V power supply. We designed a mosfet circuit to act as a switch for the spindle motors and used the enabler pins on the motor driver to control current to the Nema 17 stepper motors.</p>
+<p><strong>Software</strong>: Using AntiMicroX, we mapped the PS4 controls to keyboard commands. Afterwards, we used the serial monitor emulator PuTTY to ensure all keyboard commands were immediately sent to the Arduino. The Arduino then reads the keyboard commands from PuTTY and executes them.</p>
+<p><strong>Hardware</strong>: The entire system is powered using a 12V power supply. We designed a MOSFET circuit to act as a switch for the spindle motors and used the Arduino to control the Nema 17 stepper motors.</p>
 <h3 id="equipment">
   Equipment
   <a class="heading-link" href="#equipment">
@@ -194,7 +194,7 @@ Abstract Link to heading The main goal of our project was to construct a device 
 <li>William Ni for 3D Printing</li>
 <li>Owen Liu for electronics</li>
 </ul>
-<p>We took heavy inspiration from an online <a href="https://projecthub.arduino.cc/GordPayne/arduino-ping-pong-ball-cannon-abb8b3"  class="external-link" target="_blank" rel="noopener">arduino lab</a>, with a design very similar in terms of mechanics, though we modified the desing with CAD so that it is 3-D printable.</p>
+<p>We took heavy inspiration from an online <a href="https://projecthub.arduino.cc/GordPayne/arduino-ping-pong-ball-cannon-abb8b3"  class="external-link" target="_blank" rel="noopener">arduino lab</a>, with a design very similar in terms of mechanics. We enhanced the design further with CAD to make it 3-D printable.</p>
 <h3 id="presentation">
   Presentation
   <a class="heading-link" href="#presentation">
