@@ -5,4 +5,4 @@ slug = "contact"
 
 **Email**: stevenzhu@ucsb.edu
 
-**Phone number**: 668-241-9173
+**Phone number**: 669-241-9173
