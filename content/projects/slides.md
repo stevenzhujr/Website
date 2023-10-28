@@ -24,5 +24,5 @@ However, some websites had ads that may block the screenshots needed. To remedy 
 
 **Update**: With the PPTX, library I can update the slide with new information. I used runs within paragraphs to format the customary text boxes.
 
-### In action
+### Demo
 {{< vimeo_simple "872103863?share=copy" >}}

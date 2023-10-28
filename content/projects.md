@@ -7,4 +7,4 @@ slug = "projects"
 
 [Weekly updating slides](/projects/slides)
 
-[Conrad's game of life](/projects/Conrad)
+[Conrad's game of life](/projects/conrad)
