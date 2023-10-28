@@ -27,6 +27,8 @@ I have completed a Pingpong Ball Launcher Project in my ECE 5 class. Collaborati
 
 During my internship at Trina, I started a project to automate weekly presentations. I used Python to fetch elements and screenshots from websites using XPath and the Selenium library. Then, the program automatically compiled them into a presentation using the Python pptx and Pillow libraries.
 
-I have more undergoing projects. I plan to code Conrad's Game of Life this coming school quarter and complete a PCB ornament project this school year under the supervision of an [IEEE](https://www.ieee.org/) member.
+This quarter, I  have finished my Conrad's Game of Life project. This is my personal project which used java to implement Conrad's game of life and the Java AWT library for the user interface.
+
+I have more undergoing projects. I plan to work with Unity on an introductory project this coming school quarter and complete a PCB ornament project within the year under the supervision of an [IEEE](https://www.ieee.org/) member.
 
 Learn more at my [projects page.](/projects)
