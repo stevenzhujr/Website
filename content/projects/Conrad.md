@@ -41,7 +41,10 @@ In a grid of 10 by 10 cells, each cell is represented by a square. The cell is a
 
 ### Demo
 
-``` java
+{{< tabgroup align="right" style="code" >}}
+{{< tab name="Demo" >}}
+
+```java
 public void renderMarkdown(String md) {
   String html = txtmark.Processor.process(md);
   JEditorPane editor = ...;
@@ -51,3 +54,5 @@ public void renderMarkdown(String md) {
 
 renderMarkdown("Hey, *this seems* not __too difficult__");
 ```
+{{< /tab >}}
+{{< /tabgroup >}}
