@@ -11,6 +11,9 @@ enableEmoji = true
 [markup.highlight]
 noClasses = false
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [params]
 author = "Steven Zhu"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'

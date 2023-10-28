@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  Conrad&#39;s Game of Life · Steven Zhu
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Steven Zhu">
+<meta name="description" content="This is my personal project implementing Conrad&rsquo;s game of life. This project uses Java and works closely with the Java AWT library.
+Github Link to heading https://github.com/stevenzhujr/Conrad/tree/main
+Abstract Link to heading This personal project consists of code that simulates Conrad&rsquo;s Game of Life using Java.The main goal of this project is to demonstrate my familiarity with Java as well as learn more about working with graphics.
+Rules Link to heading The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or &ldquo;populated&rdquo; or &ldquo;unpopulated&rdquo;.">
+<meta name="keywords" content="software engineer,hardware engineer,electrical engineer,computer engineer,developer,personal,steven,zhu,ucsb">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Conrad&#39;s Game of Life"/>
+<meta name="twitter:description" content="This is my personal project implementing Conrad&rsquo;s game of life. This project uses Java and works closely with the Java AWT library.
+Github Link to heading https://github.com/stevenzhujr/Conrad/tree/main
+Abstract Link to heading This personal project consists of code that simulates Conrad&rsquo;s Game of Life using Java.The main goal of this project is to demonstrate my familiarity with Java as well as learn more about working with graphics.
+Rules Link to heading The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or &ldquo;populated&rdquo; or &ldquo;unpopulated&rdquo;."/>
+
+<meta property="og:title" content="Conrad&#39;s Game of Life" />
+<meta property="og:description" content="This is my personal project implementing Conrad&rsquo;s game of life. This project uses Java and works closely with the Java AWT library.
+Github Link to heading https://github.com/stevenzhujr/Conrad/tree/main
+Abstract Link to heading This personal project consists of code that simulates Conrad&rsquo;s Game of Life using Java.The main goal of this project is to demonstrate my familiarity with Java as well as learn more about working with graphics.
+Rules Link to heading The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or &ldquo;populated&rdquo; or &ldquo;unpopulated&rdquo;." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.stevenzhujr.com/projects/conrad/" /><meta property="article:section" content="projects" />
+
+
+
+
+
+
+<link rel="canonical" href="http://www.stevenzhujr.com/projects/conrad/">
+
+
+<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.135e22c97ff685fe983fc60048e309ced8f00d8d38f536aa67dba8a13a03dfa4.css" integrity="sha256-E14iyX/2hf6YP8YASOMJztjwDY049TaqZ9uooToD36Q=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Steven Zhu
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About me</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/contact/">Contact me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://www.stevenzhujr.com/projects/conrad/">
+          Conrad&#39;s Game of Life
+        </a>
+      </h1>
+    </header>
+
+    <p>This is my personal project implementing Conrad&rsquo;s game of life. This project uses Java and works closely with the Java AWT library.</p>
+<h3 id="github">
+  Github
+  <a class="heading-link" href="#github">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p><a href="https://github.com/stevenzhujr/Conrad/tree/main"  class="external-link" target="_blank" rel="noopener">https://github.com/stevenzhujr/Conrad/tree/main</a></p>
+<h3 id="abstract">
+  Abstract
+  <a class="heading-link" href="#abstract">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>This personal project consists of code that simulates Conrad&rsquo;s Game of Life using Java.The main goal of this project is to demonstrate my familiarity with Java as well as learn more about working with graphics.</p>
+<h3 id="rules">
+  Rules
+  <a class="heading-link" href="#rules">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or &ldquo;populated&rdquo; or &ldquo;unpopulated&rdquo;. Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:</p>
+<ol>
+<li>
+<p>Any live cell with fewer than two live neighbours dies, as if caused by underpopulation.</p>
+</li>
+<li>
+<p>Any live cell with two or three live neighbours lives on to the next generation.</p>
+</li>
+<li>
+<p>Any live cell with more than three live neighbours dies, as if by overpopulation.</p>
+</li>
+<li>
+<p>Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</p>
+</li>
+</ol>
+<h3 id="design">
+  Design
+  <a class="heading-link" href="#design">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>In a grid of 10 by 10 cells, each cell is represented by a square. The cell is alive if the square is black, and dead if the square is white.</p>
+<h3 id="how-to-play">
+  How to play
+  <a class="heading-link" href="#how-to-play">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p><strong>Changing cells</strong>: Clicking one of the cells will change it from dead to alive and alive to dead. It is possible to change it while the simulation is running, however, it is recommended to pause before changing the board.</p>
+<p><strong>Speed</strong>: Enter an integer from 0-50 into the speed textfield to determine how fast each &ldquo;turn&rdquo; is. 0 is the slowest and 50 is the fastest.</p>
+<p><strong>Scramble</strong>: Clicking the scramble button will scramble the board, each square will be randomly set to alive or dead with equal chance for each.</p>
+<p><strong>Pause</strong>: Clicking the pause button will stop the simulation on the turn you are on. Clicking the button again will resume the simulation.</p>
+<h3 id="demo">
+  Demo
+  <a class="heading-link" href="#demo">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<applet archive = "Conrad.jar" code="Conrad.class" width="150" height="50">
+</applet>
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2023
+     Steven Zhu 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

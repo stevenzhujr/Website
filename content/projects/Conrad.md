@@ -1,6 +1,7 @@
 +++
 title = "Conrad's Game of Life"
 slug = "conrad"
+unsafe = true
 +++
 
 This is my personal project implementing Conrad's game of life. This project uses Java and works closely with the Java AWT library.
@@ -38,21 +39,3 @@ In a grid of 10 by 10 cells, each cell is represented by a square. The cell is a
 **Scramble**: Clicking the scramble button will scramble the board, each square will be randomly set to alive or dead with equal chance for each.
 
 **Pause**: Clicking the pause button will stop the simulation on the turn you are on. Clicking the button again will resume the simulation.
-
-### Demo
-
-{{< tabgroup align="right" style="code" >}}
-{{< tab name="Demo" >}}
-
-```java
-public void renderMarkdown(String md) {
-  String html = txtmark.Processor.process(md);
-  JEditorPane editor = ...;
-  editor.setContentType("text/html");
-  editor.setText(html);
-}
-
-renderMarkdown("Hey, *this seems* not __too difficult__");
-```
-{{< /tab >}}
-{{< /tabgroup >}}
