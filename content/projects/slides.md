@@ -1,5 +1,5 @@
 +++
-title = "Slides"
+title = "Weekly Slides Automation Project"
 slug = "slides"
 +++
 

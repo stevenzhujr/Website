@@ -1,5 +1,5 @@
 +++
-title = "Ping pong"
+title = "Pingpong Rapid Defence Turret Repeater(PRDTR)"
 slug = "pingpong"
 +++
 
