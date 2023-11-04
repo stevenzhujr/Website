@@ -26,9 +26,9 @@ Work Experience Link to heading I interned at a company named Trina Solar in the
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.stevenzhujr.com/projects/conrad/</guid>
-      <description>This is my personal project implementing Conrad&amp;rsquo;s game of life. This project uses Java and works closely with the Java AWT library.
+      <description>This is my project implementing Conrad&amp;rsquo;s game of life. This project uses Java and works closely with the Java AWT library.
 Github Link to heading https://github.com/stevenzhujr/Conrad/tree/main
-Abstract Link to heading This personal project consists of code that simulates Conrad&amp;rsquo;s Game of Life using Java.The main goal of this project is to demonstrate my familiarity with Java as well as learn more about working with graphics.
+Abstract Link to heading This personal project consists of code that simulates Conrad&amp;rsquo;s Game of Life using Java. The main goal of this project is to demonstrate my familiarity with Java as well as learn more about working with graphics.
 Rules Link to heading The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or &amp;ldquo;populated&amp;rdquo; or &amp;ldquo;unpopulated&amp;rdquo;.</description>
     </item>
     

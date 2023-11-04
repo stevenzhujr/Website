@@ -13,23 +13,23 @@
 
 
 <meta name="author" content="Steven Zhu">
-<meta name="description" content="This is my personal project implementing Conrad&rsquo;s game of life. This project uses Java and works closely with the Java AWT library.
+<meta name="description" content="This is my project implementing Conrad&rsquo;s game of life. This project uses Java and works closely with the Java AWT library.
 Github Link to heading https://github.com/stevenzhujr/Conrad/tree/main
-Abstract Link to heading This personal project consists of code that simulates Conrad&rsquo;s Game of Life using Java.The main goal of this project is to demonstrate my familiarity with Java as well as learn more about working with graphics.
+Abstract Link to heading This personal project consists of code that simulates Conrad&rsquo;s Game of Life using Java. The main goal of this project is to demonstrate my familiarity with Java as well as learn more about working with graphics.
 Rules Link to heading The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or &ldquo;populated&rdquo; or &ldquo;unpopulated&rdquo;.">
 <meta name="keywords" content="software engineer,hardware engineer,electrical engineer,computer engineer,developer,personal,steven,zhu,ucsb">
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Conrad&#39;s Game of Life"/>
-<meta name="twitter:description" content="This is my personal project implementing Conrad&rsquo;s game of life. This project uses Java and works closely with the Java AWT library.
+<meta name="twitter:description" content="This is my project implementing Conrad&rsquo;s game of life. This project uses Java and works closely with the Java AWT library.
 Github Link to heading https://github.com/stevenzhujr/Conrad/tree/main
-Abstract Link to heading This personal project consists of code that simulates Conrad&rsquo;s Game of Life using Java.The main goal of this project is to demonstrate my familiarity with Java as well as learn more about working with graphics.
+Abstract Link to heading This personal project consists of code that simulates Conrad&rsquo;s Game of Life using Java. The main goal of this project is to demonstrate my familiarity with Java as well as learn more about working with graphics.
 Rules Link to heading The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or &ldquo;populated&rdquo; or &ldquo;unpopulated&rdquo;."/>
 
 <meta property="og:title" content="Conrad&#39;s Game of Life" />
-<meta property="og:description" content="This is my personal project implementing Conrad&rsquo;s game of life. This project uses Java and works closely with the Java AWT library.
+<meta property="og:description" content="This is my project implementing Conrad&rsquo;s game of life. This project uses Java and works closely with the Java AWT library.
 Github Link to heading https://github.com/stevenzhujr/Conrad/tree/main
-Abstract Link to heading This personal project consists of code that simulates Conrad&rsquo;s Game of Life using Java.The main goal of this project is to demonstrate my familiarity with Java as well as learn more about working with graphics.
+Abstract Link to heading This personal project consists of code that simulates Conrad&rsquo;s Game of Life using Java. The main goal of this project is to demonstrate my familiarity with Java as well as learn more about working with graphics.
 Rules Link to heading The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or &ldquo;populated&rdquo; or &ldquo;unpopulated&rdquo;." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://www.stevenzhujr.com/projects/conrad/" /><meta property="article:section" content="projects" />
@@ -147,7 +147,7 @@ Rules Link to heading The universe of the Game of Life is an infinite two-dimens
       </h1>
     </header>
 
-    <p>This is my personal project implementing Conrad&rsquo;s game of life. This project uses Java and works closely with the Java AWT library.</p>
+    <p>This is my project implementing Conrad&rsquo;s game of life. This project uses Java and works closely with the Java AWT library.</p>
 <h3 id="github">
   Github
   <a class="heading-link" href="#github">
@@ -163,7 +163,7 @@ Rules Link to heading The universe of the Game of Life is an infinite two-dimens
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
-<p>This personal project consists of code that simulates Conrad&rsquo;s Game of Life using Java.The main goal of this project is to demonstrate my familiarity with Java as well as learn more about working with graphics.</p>
+<p>This personal project consists of code that simulates Conrad&rsquo;s Game of Life using Java. The main goal of this project is to demonstrate my familiarity with Java as well as learn more about working with graphics.</p>
 <h3 id="rules">
   Rules
   <a class="heading-link" href="#rules">
@@ -171,19 +171,19 @@ Rules Link to heading The universe of the Game of Life is an infinite two-dimens
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
-<p>The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or &ldquo;populated&rdquo; or &ldquo;unpopulated&rdquo;. Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:</p>
+<p>The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or &ldquo;populated&rdquo; or &ldquo;unpopulated&rdquo;. Every cell interacts with its eight neighbors, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:</p>
 <ol>
 <li>
-<p>Any live cell with fewer than two live neighbours dies, as if caused by underpopulation.</p>
+<p>Any live cell with fewer than two live neighbors dies as if caused by underpopulation.</p>
 </li>
 <li>
-<p>Any live cell with two or three live neighbours lives on to the next generation.</p>
+<p>Any live cell with two or three live neighbors lives on to the next generation.</p>
 </li>
 <li>
-<p>Any live cell with more than three live neighbours dies, as if by overpopulation.</p>
+<p>Any live cell with more than three live neighbors dies, as if by overpopulation.</p>
 </li>
 <li>
-<p>Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</p>
+<p>Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.</p>
 </li>
 </ol>
 <h3 id="design">
@@ -202,7 +202,7 @@ Rules Link to heading The universe of the Game of Life is an infinite two-dimens
   </a>
 </h3>
 <p><strong>Changing cells</strong>: Clicking one of the cells will change it from dead to alive and alive to dead. It is possible to change it while the simulation is running, however, it is recommended to pause before changing the board.</p>
-<p><strong>Speed</strong>: Enter an integer from 0-50 into the speed textfield to determine how fast each &ldquo;turn&rdquo; is. 0 is the slowest and 50 is the fastest.</p>
+<p><strong>Speed</strong>: Enter an integer from 0-50 into the speed text field to determine how fast each &ldquo;turn&rdquo; is. 0 is the slowest and 50 is the fastest.</p>
 <p><strong>Scramble</strong>: Clicking the scramble button will scramble the board, each square will be randomly set to alive or dead with equal chance for each.</p>
 <p><strong>Pause</strong>: Clicking the pause button will stop the simulation on the turn you are on. Clicking the button again will resume the simulation.</p>
 <h3 id="demo">
