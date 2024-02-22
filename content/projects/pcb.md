@@ -1,44 +1,55 @@
 +++
-title = "Conrad's Game of Life"
-slug = "conrad"
+title = "PCB Ornament"
+slug = "PCB"
 +++
 
-This is my project implementing Conrad's game of life. This project uses Java and works closely with the Java AWT library.
-
-### Github
-
-https://github.com/stevenzhujr/Conrad/tree/main
+This is my project creating a printed circuit board (PCB) ornament. This project uses Kicad and demonstrates understanding of the circuitry design process.
 
 ### Abstract
 
-This personal project consists of code that simulates Conrad's Game of Life using Java. The main goal of this project is to demonstrate my familiarity with Java as well as learn more about working with graphics.
+This is a guided project done in collaboration with IEEE. The main goal of this project is to familiarize myself with PCB and hardware design.
 
-### Rules
+### Process
+The process for designing basic circuitry requires three major steps:
 
-The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or "populated" or "unpopulated". Every cell interacts with its eight neighbors, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:
+1. Understanding the digital logic for a phenomenon
 
-1. Any live cell with fewer than two live neighbors dies as if caused by underpopulation.
+2. Implemnting and rendering it digitally using an app
 
-2. Any live cell with two or three live neighbors lives on to the next generation.
-
-3. Any live cell with more than three live neighbors dies, as if by overpopulation.
-
-4. Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
+3. Printing the board and assembling the components
 
 ### Design
 
-In a grid of 10 by 10 cells, each cell is represented by a square. The cell is alive if the square is black, and dead if the square is white.
+***Goal***
+The goal of the ornament is to make an ornament for Christmas. To achieve this, the PCB is designed to flash lights in a pattern across nine LEDs on a snowflake shaped PCB. The speed of the pattern should be able to be controlled.
 
-### How to play
+***Implementation***
+The pattern will increment through a counter, the pattern will have three stages, thus the counter will count up to three and reset. Then, through a timing chip and capacitors and a potentiometer, we can control how fast the pattern progresses. We do this through manipulating how fast the capacitors discharge through changing the resistance of the potentiometer.
 
-**Changing cells**: Clicking one of the cells will change it from dead to alive and alive to dead. It is possible to change it while the simulation is running, however, it is recommended to pause before changing the board.
+This allows us to wire different patterns of lights to different stages of the counter, thus as it increments up, it appears as though the lights are shining in a pattern.
 
-**Speed**: Enter an integer from 0-50 into the speed text field to determine how fast each "turn" is. 0 is the slowest and 50 is the fastest.
+***Materials***
+PCB board
+Coin batteries
+Resistors (any is fine as long as it fits the LED's requirements, can be surface mount or through hole resistors)
+2 Capacitors (0.1 and 10 microFarads)
+9 surface mount LEDs
+Potentiometer
+Switch
+CD4017BE chip (counter)
+SE555P chip (timer)
 
-**Scramble**: Clicking the scramble button will scramble the board, each square will be randomly set to alive or dead with equal chance for each.
+### Tools
 
-**Pause**: Clicking the pause button will stop the simulation on the turn you are on. Clicking the button again will resume the simulation.
+The design of the PCB was done in KiCad, and the board was printed through OSH Park. All other materials were provided by IEEE and assembled by me through soldering.
+
+
+### KiCad design
+The specifics of the circuit logic is found here in the schematics:
+{{< figure src="/images/PCB_KiCad.png">}}
+
+An early board is design is as shown, the shape of the board can be modified and parts can be shifted as I did later:
+{{< figure src="/images/PCB_Board.png">}}
 
 ### Demo
-
-{{< vimeo_simple "878903037?share=copy" >}}
+{{< vimeo_simple "915563729?share=copy" >}}
