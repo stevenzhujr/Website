@@ -43,6 +43,18 @@ Phone number: 669-241-9173</description>
     </item>
     
     <item>
+      <title>PCB Ornament</title>
+      <link>http://www.stevenzhujr.com/projects/pcb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.stevenzhujr.com/projects/pcb/</guid>
+      <description>This is my project creating a printed circuit board (PCB) ornament. This project uses Kicad and demonstrates understanding of the circuitry design process.
+Abstract Link to heading This is a guided project done in collaboration with IEEE. The main goal of this project is to familiarize myself with PCB and hardware design.
+Process Link to heading The process for designing basic circuitry requires three major steps:
+Understanding the digital logic for a phenomenon</description>
+    </item>
+    
+    <item>
       <title>Pingpong Rapid Defence Turret Repeater(PRDTR)</title>
       <link>http://www.stevenzhujr.com/projects/pingpong/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
