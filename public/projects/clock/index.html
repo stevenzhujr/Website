@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  FlipFlop Clock · Steven Zhu
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Steven Zhu">
+<meta name="description" content="This is my project creating a clock. The clock is implemented using a PCB. (Printed Circuit Board) This project uses Kicad and demonstrates understanding of flipflops, counters, and the circuitry design process.
+Abstract Link to heading This is a guided project done in collaboration with IEEE. The main goal of this project is to reinforce my understanding of flipflops and counters.
+Design Link to heading Goal The goal of the ornament is to make a functional 24 hour clock.">
+<meta name="keywords" content="software engineer,hardware engineer,electrical engineer,computer engineer,developer,personal,steven,zhu,ucsb">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="FlipFlop Clock"/>
+<meta name="twitter:description" content="This is my project creating a clock. The clock is implemented using a PCB. (Printed Circuit Board) This project uses Kicad and demonstrates understanding of flipflops, counters, and the circuitry design process.
+Abstract Link to heading This is a guided project done in collaboration with IEEE. The main goal of this project is to reinforce my understanding of flipflops and counters.
+Design Link to heading Goal The goal of the ornament is to make a functional 24 hour clock."/>
+
+<meta property="og:title" content="FlipFlop Clock" />
+<meta property="og:description" content="This is my project creating a clock. The clock is implemented using a PCB. (Printed Circuit Board) This project uses Kicad and demonstrates understanding of flipflops, counters, and the circuitry design process.
+Abstract Link to heading This is a guided project done in collaboration with IEEE. The main goal of this project is to reinforce my understanding of flipflops and counters.
+Design Link to heading Goal The goal of the ornament is to make a functional 24 hour clock." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.stevenzhujr.com/projects/clock/" /><meta property="article:section" content="projects" />
+
+
+
+
+
+
+<link rel="canonical" href="http://www.stevenzhujr.com/projects/clock/">
+
+
+<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.135e22c97ff685fe983fc60048e309ced8f00d8d38f536aa67dba8a13a03dfa4.css" integrity="sha256-E14iyX/2hf6YP8YASOMJztjwDY049TaqZ9uooToD36Q=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Steven Zhu
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About me</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/contact/">Contact me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://www.stevenzhujr.com/projects/clock/">
+          FlipFlop Clock
+        </a>
+      </h1>
+    </header>
+
+    <p>This is my project creating a clock. The clock is implemented using a PCB. (Printed Circuit Board) This project uses Kicad and demonstrates understanding of flipflops, counters, and the circuitry design process.</p>
+<h3 id="abstract">
+  Abstract
+  <a class="heading-link" href="#abstract">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>This is a guided project done in collaboration with IEEE. The main goal of this project is to reinforce my understanding of flipflops and counters.</p>
+<h3 id="design">
+  Design
+  <a class="heading-link" href="#design">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p><em><strong>Goal</strong></em>
+The goal of the ornament is to make a functional 24 hour clock. To achieve this, the PCB is designed to display four numbers through four seven segment displays, representing the hours and minutes of the current time. There will be two buttons to increment the hour and minute count respectively to be able to set the time manually.</p>
+<p>We can verify this through blinking LEDs placed between the hours and the minutes. They should blink at a 1Hz frequency, verifying that our signal for tracking time is operating correctly.</p>
+<p><em><strong>Implementation</strong></em></p>
+<p><em><strong>Time</strong></em>
+Tracking the time requires a signal at a consistent frequency. To achieve this I used a crystal oscillator specifically, a common place 32.768 kHz crystal. This signal is then treated through the 4060 IC chip to produce a 1Hz signal. One thing to note here is that the crystal oscillator operated under 3.3V logic, while the chip operated with 5V. This meant that a stage amp was needed to trasform the signal from 3.3V to 5V.</p>
+<p><em><strong>Reset</strong></em>
+Once the signal is established, it can be fed into a counter. The board is wired such that every one second, the counter counts up by one.</p>
+<p>In order to implement reset behavior and have a functional minute and hour counters. A counter for seconds is first implemented, which will increment by one every second through the 1Hz signal. A minute counter is implemented which increases by one every time the second counter hits sixty. At which point the second counter is reset. Once the minute counter hits sixty, the hour counter increments by one and the minute counter resets. The hour counter then resets once it hits twenty four.</p>
+<p>This entire process is be implemented with logic through the 4026 chips. The schematics and wiring is provided below.</p>
+<p><em><strong>Inputs</strong></em>
+The inputs to the circuit will only be two buttons. The hour button and the minute button. The hour button will increment the hour by one and the minute will increment the minute by one. This will be how the user sets the time.</p>
+<p>Buttons face issues such as debouncing, which I have solved through implementing an RC circuit to clean the signal.</p>
+<p><em><strong>Materials</strong></em>
+PCB board
+USB-C cable
+6 resistor networks
+6 Capacitors
+2 LEDs
+4 Diodes
+2 CD4060BE chips
+2 CD4017BE chips
+SN74LS04N chip
+SN74LS08N chip
+4 CD4026BE chips
+MEMS Oscillator circuit set (crystal clock)
+2 buttons
+4 seven segment displays
+1 transistor
+USB-C port (to solder onto the board)</p>
+<h3 id="tools">
+  Tools
+  <a class="heading-link" href="#tools">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>All  materials were provided by IEEE and assembled by me through soldering.</p>
+<h3 id="kicad-design">
+  KiCad design
+  <a class="heading-link" href="#kicad-design">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>The specifics of the circuit logic is found here in the schematics:
+<figure><img src="/images/Clock_KiCad.png"/>
+</figure>
+</p>
+<h3 id="demo">
+  Demo
+  <a class="heading-link" href="#demo">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+
+
+
+
+
+
+<style>
+.__h_video {
+   position: relative;
+   padding-bottom: 56.23%;
+   height: 0;
+   overflow: hidden;
+   width: 100%;
+   background: #000;
+}
+.__h_video img {
+   width: 100%;
+   height: auto;
+   color: #000;
+}
+.__h_video .play {
+   height: 72px;
+   width: 72px;
+   left: 50%;
+   top: 50%;
+   margin-left: -36px;
+   margin-top: -36px;
+   position: absolute;
+   cursor: pointer;
+}
+</style>
+
+
+<div class="s_video_simple __h_video">
+<a href="https://vimeo.com/9.3484138e&#43;08" rel="noopener" target="_blank">
+
+
+<img src="https://i.vimeocdn.com/video/1833792174-12dbd087b108dbbaeb8dc65d6beab898e7f1afbdc34771417a3db3e131490839-d_200x150" srcset="https://i.vimeocdn.com/video/1833792174-12dbd087b108dbbaeb8dc65d6beab898e7f1afbdc34771417a3db3e131490839-d_200x150 1x, https://i.vimeocdn.com/video/1833792174-12dbd087b108dbbaeb8dc65d6beab898e7f1afbdc34771417a3db3e131490839-d_200x150 2x" alt="Clock PCB">
+<div class="play"><svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 61"><circle cx="30.5" cy="30.5" r="30.5" opacity=".8" fill="#000"></circle><path d="M25.3 19.2c-2.1-1.2-3.8-.2-3.8 2.2v18.1c0 2.4 1.7 3.4 3.8 2.2l16.6-9.1c2.1-1.2 2.1-3.2 0-4.4l-16.6-9z" fill="#fff"></path></svg></div></a></div>
+<h3 id="future-improvements-and-conclusion">
+  Future improvements and conclusion
+  <a class="heading-link" href="#future-improvements-and-conclusion">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>As the demo showcases, there are several shortcomings of the finished project that I would improve if I were to remake the clock.</p>
+<p>The first issue is the LEDs in the center are not blinking. In the design, the LEDs are supposed to blink at a 1Hz frequency, but they are not lit up in the demo. This is due to a poor soldering job on my part, as I messed up the tracing&rsquo;s connection trying to fix another soldering mistake that I had made. This can be simply fixed with greater caution and skill in soldering.</p>
+<p>The second issue is that many of the exposed parts of the PCB can cause shorts which can cause undefined behavior, such as the counter incrementing as fast as the capacitor would allow instead of following the 1Hz signal. This is demonstrated at the end of the demo, where I touch an exposed diode, causing the counters to count up rapidly. This can be fixed by making casings and covers for the exposed parts of the circuit. Alternatively, it may be easier to simply make all parts into surface mounts to reduce the chance of something touching it and shorting the circuit, though this will make soldering much more difficult.</p>
+<p>Ultimately, the clock functions and behaves as expected overall, and I am happy with how the PCB turned out.</p>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2023 -
+    
+    2024
+     Steven Zhu 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

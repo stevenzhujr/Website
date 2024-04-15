@@ -19,6 +19,17 @@ Rules Link to heading The universe of the Game of Life is an infinite two-dimens
     </item>
     
     <item>
+      <title>FlipFlop Clock</title>
+      <link>http://www.stevenzhujr.com/projects/clock/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.stevenzhujr.com/projects/clock/</guid>
+      <description>This is my project creating a clock. The clock is implemented using a PCB. (Printed Circuit Board) This project uses Kicad and demonstrates understanding of flipflops, counters, and the circuitry design process.
+Abstract Link to heading This is a guided project done in collaboration with IEEE. The main goal of this project is to reinforce my understanding of flipflops and counters.
+Design Link to heading Goal The goal of the ornament is to make a functional 24 hour clock.</description>
+    </item>
+    
+    <item>
       <title>PCB Ornament</title>
       <link>http://www.stevenzhujr.com/projects/pcb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
