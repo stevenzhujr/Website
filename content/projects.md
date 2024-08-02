@@ -8,3 +8,7 @@ slug = "projects"
 [Weekly updating slides](/projects/slides)
 
 [Conrad's game of life](/projects/conrad)
+
+[PCB ornament](/projects/pcb)
+
+[FlipFlop clock](/projects/clock)

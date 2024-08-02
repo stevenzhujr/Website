@@ -156,8 +156,11 @@ weight = 2
 url = "projects/"
 
 [[languages.en.menu.main]]
+name = "Experiences"
+weight = 3
+url = "experiences/"
+
+[[languages.en.menu.main]]
 name = "Contact me"
 weight = 5
 url = "contact/"
-
-
