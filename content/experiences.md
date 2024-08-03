@@ -3,9 +3,9 @@ title = "Experiences"
 slug = "experiences"
 +++
 
-[OCPI lab researcher (5/2024 - present)](/experiences/ocpi)
+[5/2024 - present OCPI lab researcher](/experiences/ocpi)
 
-[UCSB FSM (9/2024 - Present)](/experiences/fsm)
+[9/2024 - Present UCSB FSM](/experiences/fsm)
 
-[Trina Solar (5/2022 - 9/2022)](/experiences/trina)
+[5/2022 - 9/2022 Trina Solar](/experiences/trina)
 

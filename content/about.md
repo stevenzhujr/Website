@@ -7,36 +7,36 @@ I am a Junior studying computer engineering at the [University of California, Sa
 
 ### Courses
 
-- Data Structures and Algorithms. (instructed in C++)
+- Data Structures and Algorithms. (C++)
 
-- Object Oriented Design and Implementation. (instructed in C++)
+- Object Oriented Design and Implementation. (C++)
 
 - Foundations of Analog and Digital Circuits and Systems.
 
-- Introduction to Deep Learning (instructed in Python)
+- Introduction to Deep Learning (Python)
 
 ### Languages
 
-I have academic experience in C++ and Java while learning Python and HTML independently through projects.
+I have academic experience in C++ and Java and have independently learned Python and HTML through personal projects.
 
 ### Work Experience
 
-I am a member of [OCAQ II](https://ocaqpi.ece.ucsb.edu/) as part of professor Daniel Blumenthal's lab at UCSB. My current project involves taking measurements of the quality factor and dispersion of various photonic integrated devices and designing photonic chips through the use of gdsfactory and klayout.
+I am a member of [OCAQ II](https://ocaqpi.ece.ucsb.edu/) as part of Professor Daniel Blumenthal's lab at UCSB. My current project involves measuring the quality factor and dispersion of various photonic integrated devices and designing photonic chips using gdsfactory and KLayout.
 
-I am also working part-time at UCSB as a [Facility Services Operator](https://conferences.ucsb.edu/student-employment). This position has developed my interpersonal and time management skills.
+I am also working part-time at UCSB as a [Facility Services Operator](https://conferences.ucsb.edu/student-employment), where I have developed strong interpersonal and time management skills.
 
-Previously, I interned at a company named [Trina Solar](https://www.trinasolar.com/us) in the summer of 2022. I handled data entry as well as managed weekly presentations. Trina was my introduction to work culture and taught me work etiquette.
+Previously, I interned at a company named [Trina Solar](https://www.trinasolar.com/us) during the summer of 2022. In this role, I handled data entry and managed weekly presentations, providing me with my first exposure to professional work culture and workplace etiquette.
 
 ### Projects
 
-I have completed a Pingpong Ball Launcher Project in my ECE 5 class. Collaborating with my teammates, I used Solidworks to design and 3-D print a turret that launches pingpong balls. We operated it with a PS4 controller remotely through Arduino with C++ code.
+- Pingpong Ball Launcher: In my ECE 5 class, I collaborated with teammates to design and 3D print a turret using SolidWorks. The turret is operated remotely via a PS4 controller and Arduino with C++ code.
 
-During my internship at Trina, I started a project to automate weekly presentations. I used Python to fetch elements and screenshots from websites using XPath and the Selenium library. Then, the program automatically compiled them into a presentation using the Python pptx and Pillow libraries.
+- Automation of Weekly Presentations: During my internship at Trina Solar, I developed a Python script using Selenium and XPath to fetch web content, compile screenshots, and generate presentations with Python pptx and Pillow libraries.
 
-I  have finished my Conrad's Game of Life project. This is my personal project which used java to implement Conrad's game of life and the Java AWT library for the user interface.
+- Conrad's Game of Life: This personal project involved implementing Conrad's Game of Life in Java, with a user interface built using the Java AWT library.
 
-As a member of [IEEE](https://www.ieee.org/), I have completed various projects including a PCB ornament and a flipflop clock.
+- IEEE Projects: As an active member of IEEE, I have completed various projects, including a PCB ornament and a flip-flop clock.
 
-I have more undergoing projects but I plan to focus on my research at the Blumenthal lab first and foremost. As a side project, I plan to work with Unity on an introductory project this coming school year.
+I have several ongoing projects but am currently prioritizing my research in the Blumenthal lab. As a side project, I plan to explore Unity for an introductory project in the upcoming school year.
 
 Learn more at my [projects page.](/projects)
