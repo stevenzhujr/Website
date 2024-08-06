@@ -13,9 +13,9 @@
       
       <guid>http://www.stevenzhujr.com/projects/conrad/</guid>
       <description>This is my project implementing Conrad&amp;rsquo;s game of life. This project uses Java and works closely with the Java AWT library.
-https://github.com/stevenzhujr/Conrad/tree/main
-This personal project consists of code that simulates Conrad&amp;rsquo;s Game of Life using Java. The main goal of this project is to demonstrate my familiarity with Java as well as learn more about working with graphics.
-The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or &amp;ldquo;populated&amp;rdquo; or &amp;ldquo;unpopulated&amp;rdquo;.</description>
+Github Link to heading https://github.com/stevenzhujr/Conrad/tree/main
+Abstract Link to heading This personal project consists of code that simulates Conrad&amp;rsquo;s Game of Life using Java. The main goal of this project is to demonstrate my familiarity with Java as well as learn more about working with graphics.
+Rules Link to heading The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or &amp;ldquo;populated&amp;rdquo; or &amp;ldquo;unpopulated&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -25,8 +25,8 @@ The universe of the Game of Life is an infinite two-dimensional orthogonal grid 
       
       <guid>http://www.stevenzhujr.com/projects/clock/</guid>
       <description>This is my project creating a clock. The clock is implemented using a PCB. (Printed Circuit Board) This project uses Kicad and demonstrates understanding of flipflops, counters, and the circuitry design process.
-This is a guided project done in collaboration with IEEE. The main goal of this project is to reinforce my understanding of flipflops and counters.
-Goal The goal of the ornament is to make a functional 24 hour clock.</description>
+Abstract Link to heading This is a guided project done in collaboration with IEEE. The main goal of this project is to reinforce my understanding of flipflops and counters.
+Design Link to heading Goal The goal of the ornament is to make a functional 24 hour clock.</description>
     </item>
     
     <item>
@@ -36,10 +36,9 @@ Goal The goal of the ornament is to make a functional 24 hour clock.</descriptio
       
       <guid>http://www.stevenzhujr.com/projects/pcb/</guid>
       <description>This is my project creating a printed circuit board (PCB) ornament. This project uses Kicad and demonstrates understanding of the circuitry design process.
-This is a guided project done in collaboration with IEEE. The main goal of this project is to familiarize myself with PCB and hardware design.
-The process for designing basic circuitry requires three major steps:
-Understanding the digital logic for a phenomenon
-Implemnting and rendering it digitally using an app</description>
+Abstract Link to heading This is a guided project done in collaboration with IEEE. The main goal of this project is to familiarize myself with PCB and hardware design.
+Process Link to heading The process for designing basic circuitry requires three major steps:
+Understanding the digital logic for a phenomenon</description>
     </item>
     
     <item>
@@ -49,7 +48,7 @@ Implemnting and rendering it digitally using an app</description>
       
       <guid>http://www.stevenzhujr.com/projects/pingpong/</guid>
       <description>The Pingpong Rapid Defence Turret Repeater(PRDTR), or the Pingpong Ball Launcher project, was the final assignment of my ECE 5 course. I produced the launcher with two classmates, Vihan Jayaraman and Jerry Wang.
-The main goal of our project was to construct a device that shoots projectiles with multiple degrees of freedom. We mounted a ping-pong ball launcher on a tiltable mount, giving it 360 degrees of coverage in aim. Using a wirelessly connected PS4 controller, we send commands to the Arduino’s serial monitor, which rotates and tilts the turret to aim and fire our ping-pong balls.</description>
+Abstract Link to heading The main goal of our project was to construct a device that shoots projectiles with multiple degrees of freedom. We mounted a ping-pong ball launcher on a tiltable mount, giving it 360 degrees of coverage in aim.</description>
     </item>
     
     <item>
@@ -59,9 +58,9 @@ The main goal of our project was to construct a device that shoots projectiles w
       
       <guid>http://www.stevenzhujr.com/projects/slides/</guid>
       <description>The Weekly Slides Automation Project was made during my internship at Trina.
-https://github.com/stevenzhujr/Slides
-The main goal of this project was to write a program that would update slides automatically every week. I used Python and its various libraries to fetch the needed elements from the web, process them, and then update the slides.
-Webfetch: Using Selenium, I could open browsers remotely. Allowing me to use XPath to find the web element and either take a screenshot of it or record its value.</description>
+Github Link to heading https://github.com/stevenzhujr/Slides
+Abstract Link to heading The main goal of this project was to write a program that would update slides automatically every week. I used Python and its various libraries to fetch the needed elements from the web, process them, and then update the slides.
+The code is composed of the following parts: Link to heading Webfetch: Using Selenium, I could open browsers remotely.</description>
     </item>
     
   </channel>
