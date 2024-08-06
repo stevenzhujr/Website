@@ -3,6 +3,8 @@ title = "Projects"
 slug = "projects"
 +++
 
+test
+
 [Ping pong ball launcher](/projects/pingpong)
 
 [Weekly updating slides](/projects/slides)
@@ -12,5 +14,3 @@ slug = "projects"
 [PCB ornament](/projects/pcb)
 
 [FlipFlop clock](/projects/clock)
-
-<br>
