@@ -3,12 +3,12 @@ title = "Projects"
 slug = "projects"
 +++
 
-[Ping pong ball launcher](/projects/pingpong)
+(4/2024) [FlipFlop clock](/projects/clock)
 
-[Weekly updating slides](/projects/slides)
+(2/2024) [PCB ornament](/projects/pcb)
 
-[Conrad's game of life](/projects/conrad)
+(10/2023) [Conrad's game of life](/projects/conrad)
 
-[PCB ornament](/projects/pcb)
+(12/2022) [Ping pong ball launcher](/projects/pingpong)
 
-[FlipFlop clock](/projects/clock)
+(9/2022) [Weekly updating slides](/projects/slides)
