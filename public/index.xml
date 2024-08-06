@@ -13,12 +13,12 @@
       
       <guid>http://www.stevenzhujr.com/about/</guid>
       <description>I am a Junior studying computer engineering at the University of California, Santa Barbara.
-Courses Link to heading Data Structures and Algorithms. (C++)
+Data Structures and Algorithms. (C++)
 Object Oriented Design and Implementation. (C++)
 Foundations of Analog and Digital Circuits and Systems.
 Introduction to Deep Learning (Python)
-Languages Link to heading I have academic experience in C++ and Java and have independently learned Python and HTML through personal projects.
-Work Experience Link to heading I am a member of OCAQ II as part of Professor Daniel Blumenthal&amp;rsquo;s lab at UCSB.</description>
+I have academic experience in C++ and Java and have independently learned Python and HTML through personal projects.
+I am a member of OCAQ II as part of Professor Daniel Blumenthal&amp;rsquo;s lab at UCSB.</description>
     </item>
     
     <item>
@@ -28,9 +28,9 @@ Work Experience Link to heading I am a member of OCAQ II as part of Professor Da
       
       <guid>http://www.stevenzhujr.com/projects/conrad/</guid>
       <description>This is my project implementing Conrad&amp;rsquo;s game of life. This project uses Java and works closely with the Java AWT library.
-Github Link to heading https://github.com/stevenzhujr/Conrad/tree/main
-Abstract Link to heading This personal project consists of code that simulates Conrad&amp;rsquo;s Game of Life using Java. The main goal of this project is to demonstrate my familiarity with Java as well as learn more about working with graphics.
-Rules Link to heading The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or &amp;ldquo;populated&amp;rdquo; or &amp;ldquo;unpopulated&amp;rdquo;.</description>
+https://github.com/stevenzhujr/Conrad/tree/main
+This personal project consists of code that simulates Conrad&amp;rsquo;s Game of Life using Java. The main goal of this project is to demonstrate my familiarity with Java as well as learn more about working with graphics.
+The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or &amp;ldquo;populated&amp;rdquo; or &amp;ldquo;unpopulated&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -62,8 +62,8 @@ LinkedIn: https://www.linkedin.com/in/steven-zhu-a3122124b/</description>
       
       <guid>http://www.stevenzhujr.com/projects/clock/</guid>
       <description>This is my project creating a clock. The clock is implemented using a PCB. (Printed Circuit Board) This project uses Kicad and demonstrates understanding of flipflops, counters, and the circuitry design process.
-Abstract Link to heading This is a guided project done in collaboration with IEEE. The main goal of this project is to reinforce my understanding of flipflops and counters.
-Design Link to heading Goal The goal of the ornament is to make a functional 24 hour clock.</description>
+This is a guided project done in collaboration with IEEE. The main goal of this project is to reinforce my understanding of flipflops and counters.
+Goal The goal of the ornament is to make a functional 24 hour clock.</description>
     </item>
     
     <item>
@@ -72,9 +72,9 @@ Design Link to heading Goal The goal of the ornament is to make a functional 24 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.stevenzhujr.com/experiences/ocpi/</guid>
-      <description>Job Description Link to heading I am currently a researcher in Professor Blumenthal&amp;rsquo;s Optical Communications and Atomic Quantum Photonic Integration Group at the University of California, Santa Barbara.
-Responsibilities Link to heading Some of the things I did in this lab include:
-Utilizing gdsfactory, a Python library, to design photonic chips Analyzing data to evaluate the performances of optical devices Planning and coordinating testing efforts with research group members Gauging the quality factor of optical frequency combs Take away Link to heading This research experience has significantly enhanced my technical skills in photonics and data analysis, deepened my understanding of optical communications, and honed my ability to work collaboratively in a research team.</description>
+      <description>I am currently a researcher in Professor Blumenthal&amp;rsquo;s Optical Communications and Atomic Quantum Photonic Integration Group at the University of California, Santa Barbara.
+Some of the things I did in this lab include:
+Utilizing gdsfactory, a Python library, to design photonic chips Analyzing data to evaluate the performances of optical devices Planning and coordinating testing efforts with research group members Gauging the quality factor of optical frequency combs This research experience has significantly enhanced my technical skills in photonics and data analysis, deepened my understanding of optical communications, and honed my ability to work collaboratively in a research team.</description>
     </item>
     
     <item>
@@ -84,9 +84,10 @@ Utilizing gdsfactory, a Python library, to design photonic chips Analyzing data 
       
       <guid>http://www.stevenzhujr.com/projects/pcb/</guid>
       <description>This is my project creating a printed circuit board (PCB) ornament. This project uses Kicad and demonstrates understanding of the circuitry design process.
-Abstract Link to heading This is a guided project done in collaboration with IEEE. The main goal of this project is to familiarize myself with PCB and hardware design.
-Process Link to heading The process for designing basic circuitry requires three major steps:
-Understanding the digital logic for a phenomenon</description>
+This is a guided project done in collaboration with IEEE. The main goal of this project is to familiarize myself with PCB and hardware design.
+The process for designing basic circuitry requires three major steps:
+Understanding the digital logic for a phenomenon
+Implemnting and rendering it digitally using an app</description>
     </item>
     
     <item>
@@ -96,7 +97,7 @@ Understanding the digital logic for a phenomenon</description>
       
       <guid>http://www.stevenzhujr.com/projects/pingpong/</guid>
       <description>The Pingpong Rapid Defence Turret Repeater(PRDTR), or the Pingpong Ball Launcher project, was the final assignment of my ECE 5 course. I produced the launcher with two classmates, Vihan Jayaraman and Jerry Wang.
-Abstract Link to heading The main goal of our project was to construct a device that shoots projectiles with multiple degrees of freedom. We mounted a ping-pong ball launcher on a tiltable mount, giving it 360 degrees of coverage in aim.</description>
+The main goal of our project was to construct a device that shoots projectiles with multiple degrees of freedom. We mounted a ping-pong ball launcher on a tiltable mount, giving it 360 degrees of coverage in aim. Using a wirelessly connected PS4 controller, we send commands to the Arduino’s serial monitor, which rotates and tilts the turret to aim and fire our ping-pong balls.</description>
     </item>
     
     <item>
@@ -105,11 +106,11 @@ Abstract Link to heading The main goal of our project was to construct a device 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.stevenzhujr.com/projects/</guid>
-      <description>Ping pong ball launcher
-Weekly updating slides
-Conrad&amp;rsquo;s game of life
-PCB ornament
-FlipFlop clock</description>
+      <description>(4/2024) FlipFlop clock
+(2/2024) PCB ornament
+(10/2023) Conrad&amp;rsquo;s game of life
+(12/2022) Ping pong ball launcher
+(9/2022) Weekly updating slides</description>
     </item>
     
     <item>
@@ -118,10 +119,10 @@ FlipFlop clock</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.stevenzhujr.com/experiences/trina/</guid>
-      <description>Job Description Link to heading I was a sales and operations (SOP) intern at Trina during the summer of 2022, from May until September.
-Responsibilities Link to heading At this internship, my main responsibilities included:
-Preparing and presenting weekly operational reports regarding relevant statistics Data entry and creation of invoices Heading and developing a key performance index (KPI) project Projects Link to heading Automated Slides
-This is a personal project started to automate the weekly updating operational report.</description>
+      <description>I was a sales and operations (SOP) intern at Trina during the summer of 2022, from May until September.
+At this internship, my main responsibilities included:
+Preparing and presenting weekly operational reports regarding relevant statistics Data entry and creation of invoices Heading and developing a key performance index (KPI) project Automated Slides
+This is a personal project started to automate the weekly updating operational report. Learn more about it here.</description>
     </item>
     
     <item>
@@ -130,9 +131,9 @@ This is a personal project started to automate the weekly updating operational r
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.stevenzhujr.com/experiences/fsm/</guid>
-      <description>Job Description Link to heading I am currently a Facility Services Manager (FSM) at the University of California - Santa Barbara.
-Responsibilities Link to heading In this job, my main responsibilities included:
-Operating audio and video equipment for school events and conferences Providing technical support to event attendees Setting up rooms according to event specifications Take away Link to heading This job has taught me valuable skills in technical support and event management, as well as the ability to articulate comprehensively and solve problems under pressure.</description>
+      <description>I am currently a Facility Services Manager (FSM) at the University of California - Santa Barbara.
+In this job, my main responsibilities included:
+Operating audio and video equipment for school events and conferences Providing technical support to event attendees Setting up rooms according to event specifications This job has taught me valuable skills in technical support and event management, as well as the ability to articulate comprehensively and solve problems under pressure.</description>
     </item>
     
     <item>
@@ -142,9 +143,9 @@ Operating audio and video equipment for school events and conferences Providing 
       
       <guid>http://www.stevenzhujr.com/projects/slides/</guid>
       <description>The Weekly Slides Automation Project was made during my internship at Trina.
-Github Link to heading https://github.com/stevenzhujr/Slides
-Abstract Link to heading The main goal of this project was to write a program that would update slides automatically every week. I used Python and its various libraries to fetch the needed elements from the web, process them, and then update the slides.
-The code is composed of the following parts: Link to heading Webfetch: Using Selenium, I could open browsers remotely.</description>
+https://github.com/stevenzhujr/Slides
+The main goal of this project was to write a program that would update slides automatically every week. I used Python and its various libraries to fetch the needed elements from the web, process them, and then update the slides.
+Webfetch: Using Selenium, I could open browsers remotely. Allowing me to use XPath to find the web element and either take a screenshot of it or record its value.</description>
     </item>
     
   </channel>
