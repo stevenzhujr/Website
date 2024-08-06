@@ -12,3 +12,5 @@ slug = "projects"
 [PCB ornament](/projects/pcb)
 
 [FlipFlop clock](/projects/clock)
+
+<br>
