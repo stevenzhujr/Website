@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Web App · Steven Zhu
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Steven Zhu">
+<meta name="description" content="Table of Contents Link to heading Abstract Objective Task Breakdown Frontend Backend Setup Instructions Thought Process Abstract Link to heading This was a takehome project completed in one day to demonstrate my fullstack development abilities. I took the project as a chance to further reinforced what I learned about Next.js and Django on my own.
+Objective Link to heading The prompt was to build a web application using Next.js on the frontend and integrate it with a Django API backend.">
+<meta name="keywords" content="software engineer,hardware engineer,electrical engineer,computer engineer,developer,personal,steven,zhu,ucsb">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Web App">
+  <meta name="twitter:description" content="Table of Contents Link to heading Abstract Objective Task Breakdown Frontend Backend Setup Instructions Thought Process Abstract Link to heading This was a takehome project completed in one day to demonstrate my fullstack development abilities. I took the project as a chance to further reinforced what I learned about Next.js and Django on my own.
+Objective Link to heading The prompt was to build a web application using Next.js on the frontend and integrate it with a Django API backend.">
+
+<meta property="og:url" content="http://localhost:1313/projects/webapp/">
+  <meta property="og:site_name" content="Steven Zhu">
+  <meta property="og:title" content="Web App">
+  <meta property="og:description" content="Table of Contents Link to heading Abstract Objective Task Breakdown Frontend Backend Setup Instructions Thought Process Abstract Link to heading This was a takehome project completed in one day to demonstrate my fullstack development abilities. I took the project as a chance to further reinforced what I learned about Next.js and Django on my own.
+Objective Link to heading The prompt was to build a web application using Next.js on the frontend and integrate it with a Django API backend.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/projects/webapp/">
+
+
+<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Steven Zhu
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About me</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/experiences/">Experiences</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/contact/">Contact me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/projects/webapp/">
+          Web App
+        </a>
+      </h1>
+    </header>
+
+    <h2 id="table-of-contents">
+  Table of Contents
+  <a class="heading-link" href="#table-of-contents">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ul>
+<li><a href="#Abstract" >Abstract</a></li>
+<li><a href="#Objective" >Objective</a></li>
+<li><a href="#task-breakdown" >Task Breakdown</a></li>
+<li><a href="#frontend" >Frontend</a></li>
+<li><a href="#backend" >Backend</a></li>
+<li><a href="#setup-instructions" >Setup Instructions</a></li>
+<li><a href="#thought-process" >Thought Process</a></li>
+</ul>
+<h2 id="abstract">
+  Abstract
+  <a class="heading-link" href="#abstract">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>This was a takehome project completed in one day to demonstrate my fullstack development abilities. I took the project as a chance to further reinforced what I learned about Next.js and Django on my own.</p>
+<h2 id="objective">
+  Objective
+  <a class="heading-link" href="#objective">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>The prompt was to build a web application using Next.js on the frontend and integrate it with a Django API backend. The application will feature a basic dashboard page with multiple charts (Candlestick, Line Chart, Bar Chart, and Pie Chart), and the data will be retrieved from the backend (it can be hardcoded in the backend).</p>
+<h2 id="task-breakdown">
+  Task Breakdown
+  <a class="heading-link" href="#task-breakdown">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p><em><strong>Frontend: Next.js Application</strong></em></p>
+<p>Create a basic dashboard page that includes four different types of charts:</p>
+<ul>
+<li>
+<p>Candlestick Chart</p>
+</li>
+<li>
+<p>Line Chart</p>
+</li>
+<li>
+<p>Bar Chart</p>
+</li>
+<li>
+<p>Pie Chart</p>
+</li>
+</ul>
+<p>Charts Requirement:</p>
+<ul>
+<li>
+<p>Use a popular charting library such as Chart.js, Rechart, Lightview, or whatever you prefer to implement the charts.</p>
+</li>
+<li>
+<p>Each chart should render data that comes from the Django API.</p>
+</li>
+<li>
+<p>Next.js Functionality:</p>
+</li>
+<li>
+<p>The frontend should fetch the data using Next.js API routes or directly in a React component via a fetch or Axios call.</p>
+</li>
+<li>
+<p>Display the fetched data dynamically in the charts.</p>
+</li>
+</ul>
+<p><em><strong>Backend: Django API</strong></em></p>
+<p>Create a simple Django API that provides the data for the charts. The data can be hardcoded for this task.</p>
+<p>Define the following API endpoints in Django, each serving data for the respective chart:</p>
+<ul>
+<li>
+<p>/api/candlestick-data/ – Returns JSON data for the Candlestick chart.</p>
+</li>
+<li>
+<p>/api/line-chart-data/ – Returns JSON data for the Line chart.</p>
+</li>
+<li>
+<p>/api/bar-chart-data/ – Returns JSON data for the Bar chart.</p>
+</li>
+<li>
+<p>/api/pie-chart-data/ – Returns JSON data for the Pie chart.</p>
+</li>
+</ul>
+<p>The data returned from these APIs can be hardcoded but should follow the typical structure that the charts expect.</p>
+<h2 id="frontend">
+  Frontend
+  <a class="heading-link" href="#frontend">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ul>
+<li><strong>Next.js</strong>: A React framework for server-side rendering and generating static websites.</li>
+<li><strong>SWR</strong>: A React hook for remote data fetching.</li>
+<li><strong>Chart.js</strong>: A JavaScript library for creating charts.</li>
+<li><strong>React Chart.js 2</strong>: A React wrapper for Chart.js.</li>
+<li><strong>Fetch</strong>: HTTP clients to fetch data from the Django API (depending on your implementation).</li>
+</ul>
+<h2 id="backend">
+  Backend
+  <a class="heading-link" href="#backend">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ul>
+<li><strong>Django</strong>: A Python web framework for building the API.</li>
+<li><strong>Django REST Framework</strong>: A toolkit to create web APIs in Django.</li>
+</ul>
+<h2 id="setup-instructions">
+  Setup Instructions
+  <a class="heading-link" href="#setup-instructions">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p><em><strong>Prerequisites</strong></em></p>
+<ul>
+<li>Node.js (v14+)</li>
+<li>Python (v3.8+)</li>
+</ul>
+<p><em><strong>Backend (Django)</strong></em></p>
+<ol>
+<li>
+<p><strong>Clone the Repository</strong>:
+git clone <a href="https://github.com/takehome.git"  class="external-link" target="_blank" rel="noopener">https://github.com/takehome.git</a>
+cd takehome/backend</p>
+</li>
+<li>
+<p><strong>Create a Virtual Environment</strong>:
+python3 -m venv venv
+source venv/bin/activate</p>
+</li>
+<li>
+<p><strong>Install Dependencies:</strong>:
+pip install -r requirements.txt</p>
+</li>
+<li>
+<p><strong>Run the Django Server:</strong>:
+python manage.py runserver</p>
+</li>
+<li>
+<p><strong>Navigate to the Frontend Directory:</strong>:
+cd ../front</p>
+</li>
+<li>
+<p><strong>Install Dependencies:</strong>:
+npm install</p>
+</li>
+<li>
+<p><strong>Run the Next.js Development Server:</strong>:
+npm run dev</p>
+</li>
+</ol>
+<p><em><strong>Running with Docker (Optional)</strong></em></p>
+<ol>
+<li>
+<p>Build Docker Image:
+docker-compose up &ndash;build</p>
+</li>
+<li>
+<p>Start the Application:
+docker-compose up</p>
+</li>
+<li>
+<p>Start Django server:
+cd takehome/back
+python manage.py runserver</p>
+</li>
+</ol>
+<h2 id="thought-process">
+  Thought Process
+  <a class="heading-link" href="#thought-process">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>The approach was to create a simple but robust full-stack application integrating modern frontend and backend technologies:</p>
+<p><em><strong>Backend:</strong></em>
+I set up the backend first, Django was used for the backend API so I tried to capitalize on its simplicity in creating APIs using the Django REST Framework. The API serves hardcoded chart data which I coded in views.py. There is some remnants of code left from api.py which is a resulted from me learning fullstack coding from online. It&rsquo;s not pretty but it&rsquo;s simple and pretty robust.</p>
+<p><em><strong>Frontend:</strong></em>
+I then implemented the front end. In this proces I found that I liked working with Next.js even though I had only mostly worked with React, its server-side rendering and react features made it fairly easy to use, though I ended having to do some client side rendering in the end, it&rsquo;s definitely something I could improve on in the future.</p>
+<p>I used SWR for fetching, the page is designed to load the data when it opens, which should be fine for this project.</p>
+<p>For the chart visuals I used Chart.js with React Chart.js and plotly. I used Chart.js for the line, bar, and pie charts, since I had used them before. However I struggled a lot with getting the candlestick chart to work. I first tried using financial charts, but it wouldn&rsquo;t cooperate and I ended up having to use react and plotly, unfortunately making the candlestick graph a bit of an eyesore.</p>
+<p>I have looked into using typescript, but I ran into an issue with the fetcher. In the interest of time, I decided to opt for building a Docker for easier integration, as opposed to refactoring the code for typescript. I also did not implement tests or use redux, I will look into how to build those in the future.</p>
+
+  </article>
+</section>
+
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2023 -
+    
+    2024
+     Steven Zhu 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

@@ -3,6 +3,10 @@ title = "Projects"
 slug = "projects"
 +++
 
+(9/2024) [Web app](/projects/webapp)
+
+(6/2024) [Garage door](/projects/garage)
+
 (4/2024) [FlipFlop clock](/projects/clock)
 
 (2/2024) [PCB ornament](/projects/pcb)
