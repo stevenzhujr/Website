@@ -1,5 +1,5 @@
 +++
-title = "(5/2024 - Present) OCPI lab researcher"
+title = "(5/2024 - Present) OCPI Lab Researcher"
 slug = "OCPI"
 +++
 
