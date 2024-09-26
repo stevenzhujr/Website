@@ -1,5 +1,5 @@
 +++
-title = "Optical Communications and Atomic Quantum Photonic Integration Group - 5/2024 to Present"
+title = "(5/2024 - Present) OCPI lab researcher"
 slug = "OCPI"
 +++
 

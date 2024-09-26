@@ -1,5 +1,5 @@
 +++
-title = "Weekly Slides Automation Project"
+title = "(9/2022) Weekly Updating Slides"
 slug = "slides"
 +++
 

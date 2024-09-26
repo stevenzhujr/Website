@@ -1,5 +1,5 @@
 +++
-title = "Pingpong Rapid Defence Turret Repeater(PRDTR)"
+title = "(12/2022) Ping Pong Ball Launcher"
 slug = "pingpong"
 +++
 

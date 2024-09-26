@@ -1,5 +1,5 @@
 +++
-title = "Conrad's Game of Life"
+title = "(10/2023) Conrad's Game of Life"
 slug = "conrad"
 +++
 

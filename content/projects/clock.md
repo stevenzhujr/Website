@@ -1,5 +1,5 @@
 +++
-title = "FlipFlop Clock"
+title = "(4/2024) FlipFlop Clock"
 slug = "clock"
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "Trina Solar - 5/2022 to 9/2022"
+title = "(5/2022 - 9/2022) Trina Solar"
 slug = "trina"
 +++
 
