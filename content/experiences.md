@@ -3,6 +3,8 @@ title = "Experiences"
 slug = "experiences"
 +++
 
+<!-- + Please hire me + -->
+
 (5/2024 - Present) [OCPI lab researcher](/experiences/ocpi)
 
 (9/2022 - Present) [UCSB FSM](/experiences/fsm)

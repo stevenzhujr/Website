@@ -3,6 +3,8 @@ title = "Projects"
 slug = "projects"
 +++
 
+<!-- + Please hire me + -->
+
 (9/2024) [Web app](/projects/webapp)
 
 (6/2024) [Garage door](/projects/garage)
