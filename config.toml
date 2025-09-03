@@ -19,7 +19,7 @@ author = "Steven Zhu"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Steven Zhu's personal website"
 keywords = "software engineer,hardware engineer,electrical engineer,computer engineer,developer,personal,steven,zhu,ucsb"
-info = ["UCSB Computer Engineering Sophomore"]
+info = ["UCSB Computer Engineering Senior"]
 avatarURL = "avatar.jpg"
 #gravatar = "stevenzhujr.ucsb.edu"
 since = 2023
