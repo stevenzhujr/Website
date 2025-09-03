@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/projects/conrad/</loc>
+    <loc>http://localhost:1313/experiences/ng/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/slides/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/pingpong/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/pcb/</loc>
-  </url><url>
-    <loc>http://localhost:1313/projects/clock/</loc>
-  </url><url>
-    <loc>http://localhost:1313/experiences/trina/</loc>
-  </url><url>
     <loc>http://localhost:1313/experiences/ocpi/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/garage/</loc>
-  </url><url>
-    <loc>http://localhost:1313/experiences/ng/</loc>
+    <loc>http://localhost:1313/projects/conrad/</loc>
   </url><url>
     <loc>http://localhost:1313/experiences/fsm/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/slides/</loc>
+    <loc>http://localhost:1313/projects/pcb/</loc>
+  </url><url>
+    <loc>http://localhost:1313/experiences/trina/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/clock/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/garage/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/webapp/</loc>
   </url><url>

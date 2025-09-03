@@ -1,5 +1,5 @@
 +++
-title = "(6/2025 - 8/2025) Northrop Grumman"
+title = "1. (6/2025 - 8/2025) Northrop Grumman"
 slug = "NG"
 +++
 
