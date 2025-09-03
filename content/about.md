@@ -3,7 +3,7 @@ title = "About me"
 slug = "about"
 +++
 
-I am a Junior studying computer engineering at the [University of California, Santa Barbara.](https://www.ucsb.edu/)
+I am a Senior studying computer engineering at the [University of California, Santa Barbara.](https://www.ucsb.edu/)
 
 ### Courses
 
@@ -25,7 +25,7 @@ I am a member of [OCAQ II](https://ocaqpi.ece.ucsb.edu/) as part of Professor Da
 
 I am also working part-time at UCSB as a [Facility Services Operator](https://conferences.ucsb.edu/student-employment), where I have developed strong interpersonal and time management skills.
 
-Previously, I interned at a company named [Trina Solar](https://www.trinasolar.com/us) during the summer of 2022. In this role, I handled data entry and managed weekly presentations, providing me with my first exposure to professional work culture and workplace etiquette.
+Previously, I interned at Northrop Grumman during the summer of 2025. As my first technical role, it greatly deepened my understanding as a system engineer. To learn more about it, [click here.](/experiences/ng)
 
 ### Projects
 
