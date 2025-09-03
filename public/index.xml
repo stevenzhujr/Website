@@ -8,77 +8,77 @@
     <language>en</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>1. (6/2025 - 8/2025) Northrop Grumman</title>
-      <link>http://localhost:1313/experiences/ng/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experiences/ng/</guid>
-      <description>Job Description Link to heading For 10 weeks in the summer of 2025, I interned at Northrop Grumman as a System Engineer.&#xA;Responsibilities Link to heading In this internship, my main responsibilities included:&#xA;Create a simulation as part of a link budget for a laser-comm project Assist other system engineers Participate in any and all required project closure operations Projects Link to heading False Alarm Rate and Path Analysis</description>
-    </item>
-    <item>
-      <title>1. (9/2022) Weekly Updating Slides</title>
-      <link>http://localhost:1313/projects/slides/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/slides/</guid>
-      <description>The Weekly Slides Automation Project was made during my internship at Trina.&#xA;Github Link to heading https://github.com/stevenzhujr/Slides&#xA;Abstract Link to heading The main goal of this project was to write a program that would update slides automatically every week. I used Python and its various libraries to fetch the needed elements from the web, process them, and then update the slides.&#xA;The code is composed of the following parts: Link to heading Webfetch: Using Selenium, I could open browsers remotely.</description>
-    </item>
-    <item>
-      <title>2. (12/2022) Ping Pong Ball Launcher</title>
-      <link>http://localhost:1313/projects/pingpong/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/pingpong/</guid>
-      <description>The Pingpong Rapid Defence Turret Repeater(PRDTR), or the Pingpong Ball Launcher project, was the final assignment of my ECE 5 course. I produced the launcher with two classmates, Vihan Jayaraman and Jerry Wang.&#xA;Abstract Link to heading The main goal of our project was to construct a device that shoots projectiles with multiple degrees of freedom. We mounted a ping-pong ball launcher on a tiltable mount, giving it 360 degrees of coverage in aim.</description>
-    </item>
-    <item>
-      <title>2. (5/2024 - Present) OCPI Lab Researcher</title>
-      <link>http://localhost:1313/experiences/ocpi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experiences/ocpi/</guid>
-      <description>Job Description Link to heading I am currently a researcher in Professor Blumenthal&amp;rsquo;s Optical Communications and Atomic Quantum Photonic Integration Group at the University of California, Santa Barbara.&#xA;Responsibilities Link to heading Some of the things I did in this lab include:&#xA;Utilizing gdsfactory, a Python library, to design photonic chips Analyzing data to evaluate the performances of optical devices Planning and coordinating testing efforts with research group members Gauging the quality factor of optical frequency combs Take away Link to heading This research experience has significantly enhanced my technical skills in photonics and data analysis, deepened my understanding of optical communications, and honed my ability to work collaboratively in a research team.</description>
-    </item>
-    <item>
-      <title>3. (10/2023) Conrad&#39;s Game of Life</title>
+      <title>(10/2023) Conrad&#39;s Game of Life</title>
       <link>http://localhost:1313/projects/conrad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/conrad/</guid>
       <description>This is my project implementing Conrad&amp;rsquo;s game of life. This project uses Java and works closely with the Java AWT library.&#xA;Github Link to heading https://github.com/stevenzhujr/Conrad/tree/main&#xA;Abstract Link to heading This personal project consists of code that simulates Conrad&amp;rsquo;s Game of Life using Java. The main goal of this project is to demonstrate my familiarity with Java as well as learn more about working with graphics.&#xA;Rules Link to heading The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or &amp;ldquo;populated&amp;rdquo; or &amp;ldquo;unpopulated&amp;rdquo;.</description>
     </item>
     <item>
-      <title>3. (9/2022 - Present) UCSB FSM</title>
-      <link>http://localhost:1313/experiences/fsm/</link>
+      <title>(12/2022) Ping Pong Ball Launcher</title>
+      <link>http://localhost:1313/projects/pingpong/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experiences/fsm/</guid>
-      <description>Job Description Link to heading I am currently a Facility Services Manager (FSM) at the University of California - Santa Barbara.&#xA;Responsibilities Link to heading In this job, my main responsibilities included:&#xA;Operating audio and video equipment for school events and conferences Providing technical support to event attendees Setting up rooms according to event specifications Take away Link to heading This job has taught me valuable skills in technical support and event management, as well as the ability to articulate comprehensively and solve problems under pressure.</description>
+      <guid>http://localhost:1313/projects/pingpong/</guid>
+      <description>The Pingpong Rapid Defence Turret Repeater(PRDTR), or the Pingpong Ball Launcher project, was the final assignment of my ECE 5 course. I produced the launcher with two classmates, Vihan Jayaraman and Jerry Wang.&#xA;Abstract Link to heading The main goal of our project was to construct a device that shoots projectiles with multiple degrees of freedom. We mounted a ping-pong ball launcher on a tiltable mount, giving it 360 degrees of coverage in aim.</description>
     </item>
     <item>
-      <title>4. (2/2024) PCB Ornament</title>
+      <title>(2/2024) PCB Ornament</title>
       <link>http://localhost:1313/projects/pcb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/pcb/</guid>
       <description>This is my project creating a printed circuit board (PCB) ornament. This project uses Kicad and demonstrates understanding of the circuitry design process.&#xA;Abstract Link to heading This is a guided project done in collaboration with IEEE. The main goal of this project is to familiarize myself with PCB and hardware design.&#xA;Process Link to heading The process for designing basic circuitry requires three major steps:&#xA;Understanding the digital logic for a phenomenon</description>
     </item>
     <item>
-      <title>4. (5/2022 - 9/2022) Trina Solar</title>
-      <link>http://localhost:1313/experiences/trina/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experiences/trina/</guid>
-      <description>Job Description Link to heading I was a sales and operations (SOP) intern at Trina during the summer of 2022, from May until September.&#xA;Responsibilities Link to heading At this internship, my main responsibilities included:&#xA;Preparing and presenting weekly operational reports regarding relevant statistics Data entry and creation of invoices Heading and developing a key performance index (KPI) project Projects Link to heading Automated Slides&#xA;This is a personal project started to automate the weekly updating operational report.</description>
-    </item>
-    <item>
-      <title>5. (4/2024) FlipFlop Clock</title>
+      <title>(4/2024) FlipFlop Clock</title>
       <link>http://localhost:1313/projects/clock/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/clock/</guid>
       <description>This is my project creating a clock. The clock is implemented using a PCB. (Printed Circuit Board) This project uses Kicad and demonstrates understanding of flipflops, counters, and the circuitry design process.&#xA;Abstract Link to heading This is a guided project done in collaboration with IEEE. The main goal of this project is to reinforce my understanding of flipflops and counters.&#xA;Design Link to heading Goal The goal of the ornament is to make a functional 24 hour clock.</description>
     </item>
     <item>
-      <title>6. (6/2024) Garage Door</title>
+      <title>(5/2022 - 9/2022) Trina Solar</title>
+      <link>http://localhost:1313/experiences/trina/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experiences/trina/</guid>
+      <description>Job Description Link to heading I was a sales and operations (SOP) intern at Trina during the summer of 2022, from May until September.&#xA;Responsibilities Link to heading At this internship, my main responsibilities included:&#xA;Preparing and presenting weekly operational reports regarding relevant statistics Data entry and creation of invoices Heading and developing a key performance index (KPI) project Projects Link to heading Automated Slides&#xA;This is a personal project started to automate the weekly updating operational report.</description>
+    </item>
+    <item>
+      <title>(5/2024 - Present) OCPI Lab Researcher</title>
+      <link>http://localhost:1313/experiences/ocpi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experiences/ocpi/</guid>
+      <description>Job Description Link to heading I am currently a researcher in Professor Blumenthal&amp;rsquo;s Optical Communications and Atomic Quantum Photonic Integration Group at the University of California, Santa Barbara.&#xA;Responsibilities Link to heading Some of the things I did in this lab include:&#xA;Utilizing gdsfactory, a Python library, to design photonic chips Analyzing data to evaluate the performances of optical devices Planning and coordinating testing efforts with research group members Gauging the quality factor of optical frequency combs Take away Link to heading This research experience has significantly enhanced my technical skills in photonics and data analysis, deepened my understanding of optical communications, and honed my ability to work collaboratively in a research team.</description>
+    </item>
+    <item>
+      <title>(6/2024) Garage Door</title>
       <link>http://localhost:1313/projects/garage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/garage/</guid>
       <description>The Garage Door was the final assignment of my ECE 153B course. I produced created the door with another classmate, Vihan Jayaraman.&#xA;Abstract Link to heading The main goal of our project was to construct a device that models a garage door. The door has to be controlled by both temperature and remote input. The position of the door has to be sensed by an accelerometer and the remote input has to be done through a bluetooth module.</description>
     </item>
     <item>
-      <title>7. (9/2024) Web App</title>
+      <title>(6/2025 - 8/2025) Northrop Grumman</title>
+      <link>http://localhost:1313/experiences/ng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experiences/ng/</guid>
+      <description>Job Description Link to heading For 10 weeks in the summer of 2025, I interned at Northrop Grumman as a System Engineer.&#xA;Responsibilities Link to heading In this internship, my main responsibilities included:&#xA;Create a simulation as part of a link budget for a laser-comm project Assist other system engineers Participate in any and all required project closure operations Projects Link to heading False Alarm Rate and Path Analysis</description>
+    </item>
+    <item>
+      <title>(9/2022 - Present) UCSB FSM</title>
+      <link>http://localhost:1313/experiences/fsm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experiences/fsm/</guid>
+      <description>Job Description Link to heading I am currently a Facility Services Manager (FSM) at the University of California - Santa Barbara.&#xA;Responsibilities Link to heading In this job, my main responsibilities included:&#xA;Operating audio and video equipment for school events and conferences Providing technical support to event attendees Setting up rooms according to event specifications Take away Link to heading This job has taught me valuable skills in technical support and event management, as well as the ability to articulate comprehensively and solve problems under pressure.</description>
+    </item>
+    <item>
+      <title>(9/2022) Weekly Updating Slides</title>
+      <link>http://localhost:1313/projects/slides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/slides/</guid>
+      <description>The Weekly Slides Automation Project was made during my internship at Trina.&#xA;Github Link to heading https://github.com/stevenzhujr/Slides&#xA;Abstract Link to heading The main goal of this project was to write a program that would update slides automatically every week. I used Python and its various libraries to fetch the needed elements from the web, process them, and then update the slides.&#xA;The code is composed of the following parts: Link to heading Webfetch: Using Selenium, I could open browsers remotely.</description>
+    </item>
+    <item>
+      <title>(9/2024) Web App</title>
       <link>http://localhost:1313/projects/webapp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/webapp/</guid>

@@ -1,5 +1,5 @@
 +++
-title = "6. (6/2024) Garage Door"
+title = "(6/2024) Garage Door"
 slug = "garage"
 +++
 
