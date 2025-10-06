@@ -3,7 +3,14 @@ title = "About me"
 slug = "about"
 +++
 
-I am a Senior studying computer engineering at the [University of California, Santa Barbara.](https://www.ucsb.edu/)
+I am a fourth year computer engineering student studying at the [University of California, Santa Barbara.](https://www.ucsb.edu/)
+
+### Work Experience
+I interned at Northrop Grumman as a system engineer during the summer of 2025. As my first technical role, it greatly deepened my understanding as a system engineer. To learn more about it, [click here.](/experiences/ng)
+
+I am a member of [OCAQ II](https://ocaqpi.ece.ucsb.edu/) as part of Professor Daniel Blumenthal's lab at UCSB. My current project involves measuring the quality factor and dispersion of various photonic integrated devices and designing photonic chips using gdsfactory and KLayout.
+
+I am also working part-time at UCSB as a [Facility Services Operator](https://conferences.ucsb.edu/student-employment), where I have developed strong interpersonal and time management skills.
 
 ### Courses
 
@@ -15,17 +22,17 @@ I am a Senior studying computer engineering at the [University of California, Sa
 
 - Introduction to Deep Learning (Python)
 
-### Languages
+- Operating systems (C)
 
-I have academic experience in C++ and Java and have independently learned Python and HTML through personal projects.
+- Analog and Digital Circuits and Systems
 
-### Work Experience
+- Sensor and Peripheral Design (Verilog)
 
-I am a member of [OCAQ II](https://ocaqpi.ece.ucsb.edu/) as part of Professor Daniel Blumenthal's lab at UCSB. My current project involves measuring the quality factor and dispersion of various photonic integrated devices and designing photonic chips using gdsfactory and KLayout.
+- Signal Analysis
 
-I am also working part-time at UCSB as a [Facility Services Operator](https://conferences.ucsb.edu/student-employment), where I have developed strong interpersonal and time management skills.
+- Computer Architecture
 
-Previously, I interned at Northrop Grumman during the summer of 2025. As my first technical role, it greatly deepened my understanding as a system engineer. To learn more about it, [click here.](/experiences/ng)
+- FPGA Programming
 
 ### Projects
 
